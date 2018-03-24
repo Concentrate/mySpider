@@ -81,11 +81,6 @@ cursor = con.cursor()
 def storeToutiaoNewsInDataBase(data):
     for tmp in data:
         try:
-            #     ex_sql = '''
-            #     insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
-            #     media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
-            #     VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
-            #     '''
             ex_sql1 = '''
             insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
             media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
@@ -97,12 +92,7 @@ def storeToutiaoNewsInDataBase(data):
             sql_labels = '''
             insert into toutiao_news_labels(id,label)VALUES (%s,%s)
             '''
-            # result = cursor.execute(ex_sql, (
-            #     tmp.get("item_id"), tmp.get("title", ""), tmp.get("tag"), tmp.get("tag_url"), tmp.get("chinese_tag"),
-            #     tmp.get("source"), tmp.get("source_url"), tmp.get("image_url"), tmp.get("media_url"),
-            #     tmp.get("media_avatar_url"),
-            #     tmp.get("behot_time"), tmp.get("group_id"), tmp.get("middle_image"), tmp.get("comments_count"),
-            #     tmp.get("video_duration"), tmp.get("video_play_count"), tmp.get("video_id")))
+
             real_sql = ex_sql1.format(
                 tmp.get("item_id"), tmp.get("title", ""), tmp.get("tag"), tmp.get("tag_url"), tmp.get("chinese_tag"),
                 tmp.get("source"), "https://www.toutiao.com" + tmp.get("source_url"), tmp.get("image_url"),
@@ -111,16 +101,16 @@ def storeToutiaoNewsInDataBase(data):
                 tmp.get("video_duration"),
                 tmp.get("video_play_count", 0), tmp.get("video_id", 0))
             print("real sql is {0}".format(real_sql))
-            result = cursor.execute(real_sql)
-            print("execute result is " + str(result));
             images_list = tmp.get("image_list")
+            result = cursor.execute(real_sql)
+            print("execute result is %s" % result)
             if images_list and len(images_list) > 1:
                 for a1 in images_list:
-                    cursor.execute(sql_insert_images, (tmp.get("item_id"), a1))
+                    cursor.execute(sql_insert_images, (tmp.get("item_id"), str(a1)))
             label_list = tmp.get("label")
             if label_list and len(label_list) >= 1:
                 for a1 in label_list:
-                    cursor.execute(sql_labels, (tmp.get("item_id"), a1))
+                    cursor.execute(sql_labels, (tmp.get("item_id"), str(a1)))
             con.commit()
         except Exception as e:
             print(e)

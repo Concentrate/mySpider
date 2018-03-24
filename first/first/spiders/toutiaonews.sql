@@ -20,9 +20,9 @@ video_id long,
 primary key(item_id) ) default charset= utf8;
 
 create table if not exists toutiao_imageurls (
-id int not null,
+id bigint not null,
 image_url varchar(200))default charset=utf8;
-create table if not exists toutiao_news_labels(id int not null,
+create table if not exists toutiao_news_labels(id bigint not null,
 label varchar(100)) default charset=utf8;
 desc toutiao_news;
 desc toutiao_imageurls;
