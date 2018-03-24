@@ -1,10 +1,13 @@
 # -*- coding:utf-8 -*-
-import requests
-import json
-import time
-import math
-import hashlib
 import _thread
+import hashlib
+import json
+import math
+import time
+
+import requests
+
+from first.first.utils import DataBaseUtil
 
 aHeader = {
     "cookie": '''
@@ -78,7 +81,7 @@ def get_item(url):
 
 
 def processData(data):
-    pass
+    DataBaseUtil.storeToutiaoNewsInDataBase(data)
 
 
 def startRequest():
