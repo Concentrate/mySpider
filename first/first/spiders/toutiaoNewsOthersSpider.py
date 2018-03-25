@@ -4,7 +4,11 @@ import hashlib
 import json
 import math
 import time
+import sys
+import os
 
+curDir = os.getcwd()
+sys.path.append(curDir[:curDir.index('/first')])
 import requests
 
 from first.first.utils import DataBaseUtil
@@ -17,7 +21,7 @@ aHeader = {
 }
 
 totalNum = 0;
-sleepTimeSecond = 1.5;
+sleepTimeSecond = 0;
 
 
 def getASCP():
@@ -67,11 +71,11 @@ def printDataResult(data):
 
 
 def get_item(url):
-    wbdata = requests.get(url, headers=aHeader).content
+    wbdata = requests.get(url, headers=aHeader).text
     wbdata2 = json.loads(wbdata)
     if not "message" in wbdata2.keys() or wbdata2["message"] != "success":
         # print("request not success")
-        print(wbdata2)
+        # print(wbdata2)
         global sleepTimeSecond
         time.sleep(sleepTimeSecond)
         return
@@ -91,7 +95,11 @@ def startRequest():
         url = get_url(max_behot_time, AS, CP)
         data = get_item(url)
         if data and len(data) > 0:
-            processData(data);
+            try:
+                processData(data);
+            except Exception as e:
+                print("处理数据时候异常,捕获")
+
 
 def test_request(threadName, delay):
     AS, CP = getASCP()
@@ -110,4 +118,8 @@ def testpalleryRequest():
 
 
 if __name__ == "__main__":
-    startRequest()
+    threadCount = 4
+    for i in range(threadCount):
+        _thread.start_new_thread(startRequest, ())
+    while True:
+        time.sleep(1)
