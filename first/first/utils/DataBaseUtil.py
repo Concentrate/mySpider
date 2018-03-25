@@ -78,6 +78,7 @@ con = pymysql.connect(host="localhost", user="ldy", password="abcd1234",
 cursor = con.cursor()
 
 
+
 def storeToutiaoNewsInDataBase(data):
     for tmp in data:
         try:

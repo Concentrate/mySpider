@@ -6,6 +6,7 @@ import math
 import time
 import sys
 import os
+import threading
 
 curDir = os.getcwd()
 sys.path.append(curDir[:curDir.index('/first')])
@@ -22,6 +23,7 @@ aHeader = {
 
 totalNum = 0;
 sleepTimeSecond = 0;
+threadLock = threading.Lock()
 
 
 def getASCP():
@@ -96,9 +98,12 @@ def startRequest():
         data = get_item(url)
         if data and len(data) > 0:
             try:
+                threadLock.acquire()
                 processData(data);
             except Exception as e:
                 print("处理数据时候异常,捕获")
+            finally:
+                threadLock.release()
 
 
 def test_request(threadName, delay):
@@ -117,9 +122,23 @@ def testpalleryRequest():
         time.sleep(5)
 
 
+class MyThread(threading.Thread):
+    def __init__(self, name):
+        threading.Thread.__init__(self)
+        self.name = name
+
+    def run(self):
+        startRequest()
+
+
 if __name__ == "__main__":
     threadCount = 4
+    mThreadArray = []
     for i in range(threadCount):
-        _thread.start_new_thread(startRequest, ())
-    while True:
-        time.sleep(1)
+        t1 = MyThread("thread-{0}".format(i))
+        t1.start()
+        mThreadArray.append(t1)
+
+    for t2 in mThreadArray:
+        t2.join()
+    print("主线程退出")
