@@ -7,9 +7,8 @@ import time
 import sys
 import os
 import threading
-
-curDir = os.getcwd()
-sys.path.append(curDir[:curDir.index('/first')])
+moduleDir="/home/ubuntu/spider/mySpider"
+sys.path.append(moduleDir)
 import requests
 
 from first.first.utils import DataBaseUtil
@@ -73,15 +72,18 @@ def printDataResult(data):
 
 
 def get_item(url):
-    wbdata = requests.get(url, headers=aHeader).text
-    wbdata2 = json.loads(wbdata)
-    if not "message" in wbdata2.keys() or wbdata2["message"] != "success":
+    try:
+        wbdata = requests.get(url, headers=aHeader).text
+        wbdata2 = json.loads(wbdata)
+        if not "message" in wbdata2.keys() or wbdata2["message"] != "success":
         # print("request not success")
         # print(wbdata2)
-        global sleepTimeSecond
-        time.sleep(sleepTimeSecond)
-        return
-    data = wbdata2.get("data")
+           global sleepTimeSecond
+           time.sleep(sleepTimeSecond)
+       	   return
+        data = wbdata2.get("data")
+    except Exception as e:
+        print(e)
     # printDataResult(data)
     return data
 
@@ -99,7 +101,7 @@ def startRequest():
         if data and len(data) > 0:
             try:
                 threadLock.acquire()
-                processData(data);
+                processData(data)
             except Exception as e:
                 print("处理数据时候异常,捕获")
             finally:

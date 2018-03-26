@@ -1,0 +1,1232 @@
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536423376846586381","懒人的吃虾“神器来了，再不用手剥壳了，轻轻一拉，整块虾壳剥离","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6536423376846586381/","//p3.pstatp.com/list/temai/FsnzDdwTLNn9bnTw38OX9sTqW6j8.jpg","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521968205","6536423376846586381","http://p3.pstatp.com/list/temai/FsnzDdwTLNn9bnTw38OX9sTqW6j8.jpg","4","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536727895933452808","你到底是穷人还是富人","news_career","search/?keyword=%E8%81%8C%E5%9C%BA","职场","宜豪2018","https://www.toutiao.com/group/6536727895933452808/","None","/c/user/94959394527/","//p1.pstatp.com/large/6edd000177a1eabcb80c","1521968266","6536727895933452808","None","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536721790834573832","好吃到流口水的下酒菜，男人爱不释手，买十箱都不够哥们分","news_food","news_food","美食","会生活","https://www.toutiao.com/group/6536721790834573832/","//p1.pstatp.com/list/5b060000af3c440fd1dc","/c/user/5573658957/","//p1.pstatp.com/large/ef6000f68b991be6663","1521968242","6536721790834573832","http://p1.pstatp.com/list/5b060000af3c440fd1dc","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536800976949477896","一载192人渡轮在韩西南部海岸触礁 韩方展开营救","news_world","news_world","国际","海外网","https://www.toutiao.com/group/6536800976949477896/","None","None","None","1521968583","6536800976949477896","None","111","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6534949084988441095","厉害了，52岁大姑真会打扮，穿民族风小衫，看着像35，美爆了","news_fashion","news_fashion","时尚","每日搭配之道","https://www.toutiao.com/group/6534949084988441095/","//p3.pstatp.com/list/temai/FhFnf_kpDoJa2PdaLg6NJSz6uUn4.png","/c/user/5500358214/","//p3.pstatp.com/large/8112/3580274368","1521968503","6534949084988441095","http://p3.pstatp.com/list/temai/FhFnf_kpDoJa2PdaLg6NJSz6uUn4.png","51","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536800340199604483","逃离北上广，如何在三四线城市放下灵魂和肉体？","news_house","search/?keyword=%E6%88%BF%E4%BA%A7","房产","悟空问答","https://www.toutiao.com/group/6536800340199604483/","//p3.pstatp.com/list/190x124/6ef40005a9cfced586ad","None","None","1521968596","6536800340199604483","http://p3.pstatp.com/list/6ef40005a9cfced586ad","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536803014198428168","（文化）（8）陕南生态实景剧 演绎茶乡情韵","news_culture","search/?keyword=%E6%96%87%E5%8C%96","文化","新华社","https://www.toutiao.com/group/6536803014198428168/","//p1.pstatp.com/list/190x124/71f40006805f297a9509","/c/user/5757425042/","//p2.pstatp.com/large/9519/925052030","1521968595","6536803014198428168","http://p1.pstatp.com/list/71f40006805f297a9509","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536755034485424647","三四月份正吃这样的水果，好吃还营养，饭后吃点太惬意了","news_food","news_food","美食","生活美食会","https://www.toutiao.com/group/6536755034485424647/","//p1.pstatp.com/list/temai/FjBa35oY1-iDt-_9xKA6VWIne6Nq.jpg","/c/user/5500838410/","//p2.pstatp.com/large/8124/5176823568","1521968593","6536755034485424647","http://p1.pstatp.com/list/temai/FjBa35oY1-iDt-_9xKA6VWIne6Nq.jpg","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536796822315204871","没车，没房，一个男人可靠吗？","emotion","search/?keyword=%E6%83%85%E6%84%9F","情感","悟空问答","https://www.toutiao.com/group/6536796822315204871/","//p1.pstatp.com/list/190x124/6ef20009e9ca1f2847f5","None","None","1521968600","6536796822315204871","http://p1.pstatp.com/list/6ef20009e9ca1f2847f5","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6533831967908037127","妈妈偶然发现一家桑蚕丝店，忍不住剁手5件，穿上洋气的要命","news_fashion","news_fashion","时尚","放心购精选","https://www.toutiao.com/group/6533831967908037127/","//p9.pstatp.com/list/temai/Fh12YBJCd6x0PTSt2gek_Rws52FT.png","/c/user/6768100064/","//p1.pstatp.com/large/24990017e1760a23638b","1521968600","6533831967908037127","http://p9.pstatp.com/list/temai/Fh12YBJCd6x0PTSt2gek_Rws52FT.png","5","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536663930834518535","教你做停不下来的麻辣串串，爱吃辣椒的真是停不下来","news_food","news_food","美食","我住隔壁我姓杜","https://www.toutiao.com/group/6536663930834518535/","//p3.pstatp.com/list/190x124/pgc-image/15219356645435508adddcc","/c/user/76298165282/","//p10.pstatp.com/large/6edb000192a40a9ce493","1521968611","6536663930834518535","http://p3.pstatp.com/list/pgc-image/15219356645435508adddcc","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536665266565153294","「漫话·国家监委ABC③」中央纪委和国家监委为什么合署办公","news_politics","search/?keyword=%E6%97%B6%E6%94%BF","时政","中央纪委国家监委网站","https://www.toutiao.com/group/6536665266565153294/","//p3.pstatp.com/list/190x124/71f2000cda176830fa82","/c/user/88762279690/","//p3.pstatp.com/large/6ed70006004c249ae162","1521968610","6536665266565153294","http://p3.pstatp.com/list/71f2000cda176830fa82","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536509314901737997","想象力超强的森林童话系列（一）","news_culture","search/?keyword=%E6%96%87%E5%8C%96","文化","自在蓝天","https://www.toutiao.com/group/6536509314901737997/","//p1.pstatp.com/list/190x124/pgc-image/152189960639384cc617558","/c/user/94663675708/","//p3.pstatp.com/large/6c39000016b3b0285337","1521968609","6536509314901737997","http://p1.pstatp.com/list/pgc-image/152189960639384cc617558","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536482012344091143","店里老修车师傅都修不好的车，小伙用一根发夹，就将它搞定了","video_movie","video","视频","超级娱乐传送门","https://www.toutiao.com/group/6536482012344091143/","//p1.pstatp.com/list/190x124/pgc-image/1521893290350dd0f77baa5","/c/user/67189565340/","//p8.pstatp.com/large/46d60003f8dc3c8e8d55","1521968608","6536482012344091143","http://p1.pstatp.com/list/pgc-image/1521893290350dd0f77baa5","22","None","155105","3d9469b9618b453ea6a80bf596fbe143")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536758810566984200","聋哑母亲剖宫产 护士全程写字沟通","news_baby","news_baby","育儿","光明网","https://www.toutiao.com/group/6536758810566984200/","//p9.pstatp.com/list/190x124/71f400062e3a72829e08","/c/user/5806115967/","//p4.pstatp.com/large/2c68000006582322ad80","1521968607","6536758810566984200","http://p9.pstatp.com/list/71f400062e3a72829e08","10","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536078443166040583","为什么日本本土的车是没有天窗的？很多发达国家的车都没天窗","news_car","news_car","汽车","汽车参谋","https://www.toutiao.com/group/6536078443166040583/","//p9.pstatp.com/list/190x124/pgc-image/15217991613673d5e8fefb0","/c/user/58856421171/","//p3.pstatp.com/large/1a6c000859cf284dc47b","1521968606","6536078443166040583","http://p9.pstatp.com/list/pgc-image/15217991613673d5e8fefb0","57","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6532759668773618179","饭店的韭菜盒子为什么好吃？大厨教你关键诀窍，儿子一顿吃了仨","video_food","video","视频","美食联络员","https://www.toutiao.com/group/6532759668773618179/","//p3.pstatp.com/list/190x124/pgc-image/1521025447683a9e9866567","/c/user/64806329853/","//p1.pstatp.com/large/56910001b46cd817d4b1","1521968605","6532759668773618179","http://p3.pstatp.com/list/pgc-image/1521025447683a9e9866567","141","None","566001","48fa04e5226f4872b5d4fdd5e028f092")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536794566987612423","晚上临睡前，我们想吃的食物都可以随意去吃吗？","news_health","news_health","健康","悟空问答","https://www.toutiao.com/group/6536794566987612423/","//p1.pstatp.com/list/190x124/71a20019f515c8e34a0f","None","None","1521968646","6536794566987612423","http://p1.pstatp.com/list/71a20019f515c8e34a0f","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536507645677797902","老婆宁愿不煮饭也要买的厨房神器，一个比一个牛掰，妈妈也超爱用","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6536507645677797902/","//p9.pstatp.com/list/temai/FtoQhjTnQhp8lVIJUacbWJvfHxTS.jpg","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521968641","6536507645677797902","http://p9.pstatp.com/list/temai/FtoQhjTnQhp8lVIJUacbWJvfHxTS.jpg","8","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536795534898757891","农村去世的老人，为什么有的地方要实行土葬呢？","news_society","news_society","社会","悟空问答","https://www.toutiao.com/group/6536795534898757891/","//p3.pstatp.com/list/190x124/5b0200049a461e1aad99","None","None","1521968659","6536795534898757891","http://p3.pstatp.com/list/5b0200049a461e1aad99","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536417971772850691","你还在戴土的掉渣的手链吗，试试着八款，时下最流行","news_collect","search/?keyword=%E6%94%B6%E8%97%8F","收藏","酷奇潮玩","https://www.toutiao.com/group/6536417971772850691/","//p3.pstatp.com/list/5b050002acf2ad872f38","/c/user/5501814762/","//p3.pstatp.com/large/8121/5575184206","1521968658","6536417971772850691","http://p3.pstatp.com/list/5b050002acf2ad872f38","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536800040659190019","二战德国东征苏联， 明知冬季即将来临，却为何不给士兵准备冬衣？","news_military","news_military","军事","悟空问答","https://www.toutiao.com/group/6536800040659190019/","//p1.pstatp.com/list/190x124/71a200150a7be5604a8f","None","None","1521968685","6536800040659190019","http://p1.pstatp.com/list/71a200150a7be5604a8f","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535281601964671492","自家狗莫名其妙跳楼了，摔在地上奄奄一息，调监控一看主人气炸了","video_domestic","video","视频","杭州24小时","https://www.toutiao.com/group/6535281601964671492/","//p1.pstatp.com/list/190x124/pgc-image/152161354319460906ec89f","/c/user/60859878552/","//p1.pstatp.com/large/216b0023cd9ec3e25e0d","1521968682","6535281601964671492","http://p1.pstatp.com/list/pgc-image/152161354319460906ec89f","752","None","1485132","78035df744ab47b982305f627bc8fb60")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536802963879363085","草莓买回家容易坏！老果农教你一招，放1个月都不会坏，还特别甜","news_agriculture","search/?keyword=%E4%B8%89%E5%86%9C","三农","会生活","https://www.toutiao.com/group/6536802963879363085/","//p3.pstatp.com/list/190x124/4696000584e64a3ab8b1","/c/user/5573658957/","//p1.pstatp.com/large/ef6000f68b991be6663","1521968676","6536802963879363085","http://p3.pstatp.com/list/4696000584e64a3ab8b1","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536692394530701831","红鼎游戏多元新型模式 棋牌游戏的发展将越发偏向社交化和竞技化","news_game","news_game","游戏","红鼎游戏","https://www.toutiao.com/group/6536692394530701831/","//p3.pstatp.com/list/190x124/pgc-image/152194225583613ca3ce660","/c/user/67201101406/","//p9.pstatp.com/large/36440018d3987bc0c8e5","1521968673","6536692394530701831","http://p3.pstatp.com/list/pgc-image/152194225583613ca3ce660","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536803051561288205","高手在凡间，农村大叔这道干煸四季豆的做法太牛了大家快来学习吧","news_food","news_food","美食","潇洒忠山","https://www.toutiao.com/group/6536803051561288205/","//p1.pstatp.com/list/190x124/pgc-image/1521968208126c4533eaa52","/c/user/85982014301/","//p3.pstatp.com/large/6ed70003c01ab73fd164","1521968670","6536803051561288205","http://p1.pstatp.com/list/pgc-image/1521968208126c4533eaa52","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536799169519026439","一般吃什么水果就可以有效祛斑呢？","news_health","news_health","健康","悟空问答","https://www.toutiao.com/group/6536799169519026439/","//p1.pstatp.com/list/190x124/6ef40005a742e20bd096","None","None","1521968667","6536799169519026439","http://p1.pstatp.com/list/6ef40005a742e20bd096","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536800655506407694","孩子被欺负了，要不要让他打回去？","news_baby","news_baby","育儿","悟空问答","https://www.toutiao.com/group/6536800655506407694/","//p1.pstatp.com/list/190x124/3e7c000360d8fb0a5822","None","None","1521968717","6536800655506407694","http://p1.pstatp.com/list/3e7c000360d8fb0a5822","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6534702479987180045","还用菜板菜刀就过时了，18年流行这些厨房神器，做个饭菜都过瘾","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6534702479987180045/","//p3.pstatp.com/list/temai/FscvQDehgKICrmpAY9CNYybznYCm.jpg","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521968713","6534702479987180045","http://p3.pstatp.com/list/temai/FscvQDehgKICrmpAY9CNYybznYCm.jpg","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536686944577913092","有什么方法让桂花盆里的土松散透气？","news_health","news_health","健康","悟空问答","https://www.toutiao.com/group/6536686944577913092/","//p3.pstatp.com/list/190x124/6ef600039c9e62905120","None","None","1521968770","6536686944577913092","http://p3.pstatp.com/list/6ef600039c9e62905120","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536799553184596232","军校大学生毕业一般分配到哪才算是有出路？","news_edu","search/?keyword=%E6%95%99%E8%82%B2","教育","悟空问答","https://www.toutiao.com/group/6536799553184596232/","//p3.pstatp.com/list/190x124/382e002134bfe991b756","None","None","1521968763","6536799553184596232","http://p3.pstatp.com/list/382e002134bfe991b756","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536310336897679879","二战美国最痛快的复仇，用珍珠港被炸的战列舰轰沉日本战列舰队","news_military","news_military","军事","战争史","https://www.toutiao.com/group/6536310336897679879/","//p3.pstatp.com/list/190x124/pgc-image/15217763349972b537fe779","/c/user/4321141256/","//p3.pstatp.com/large/3517/2960071576","1521968756","6536310336897679879","http://p3.pstatp.com/list/pgc-image/15217763349972b537fe779","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536792915304251912","老婆网上淘回来的一堆生活小物，看似不起眼，却没想到真么好用","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6536792915304251912/","//p1.pstatp.com/list/4698000241ce1899f86d","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521968749","6536792915304251912","http://p1.pstatp.com/list/4698000241ce1899f86d","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536530321104437767","车主注意：这3种 “被贴罚单” 无需交罚款，更不必担心扣分","news_car","news_car","汽车","大群说车","https://www.toutiao.com/group/6536530321104437767/","//p3.pstatp.com/list/190x124/400100010339e0b0b092","/c/user/63277981077/","//p3.pstatp.com/large/2c6a00123b8e396b9356","1521968772","6536530321104437767","http://p3.pstatp.com/list/400100010339e0b0b092","11","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535575721186689549","关于火龙果的灌溉方式！四大灌溉时期要注意！","news_agriculture","search/?keyword=%E4%B8%89%E5%86%9C","三农","农百通","https://www.toutiao.com/group/6535575721186689549/","//p9.pstatp.com/list/190x124/pgc-image/152168222981169f4e21536","/c/user/6506338433/","//p3.pstatp.com/large/d2a00125256ffb5ddf5","1521968772","6535575721186689549","http://p9.pstatp.com/list/pgc-image/152168222981169f4e21536","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536499139000140302","爱吃饺子的有福了，这个“饺子神器太牛犇，3分钟包50个饺子","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6536499139000140302/","//p9.pstatp.com/list/469a00036df018ef1461","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521968772","6536499139000140302","http://p9.pstatp.com/list/469a00036df018ef1461","2","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536575163859730951","香文化的唯美欣赏","news_culture","search/?keyword=%E6%96%87%E5%8C%96","文化","最新流行元素","https://www.toutiao.com/group/6536575163859730951/","//p3.pstatp.com/list/190x124/pgc-image/15219148144309b02b4bf8c","/c/user/61652965184/","//p1.pstatp.com/large/436f00004115977ed816","1521968772","6536575163859730951","http://p3.pstatp.com/list/pgc-image/15219148144309b02b4bf8c","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536800585721577736","女生们会喜欢上一开始自己并不喜欢，但是也不讨厌、一直是朋友的人吗？","emotion","search/?keyword=%E6%83%85%E6%84%9F","情感","悟空问答","https://www.toutiao.com/group/6536800585721577736/","//p3.pstatp.com/list/190x124/756100010151d09465ad","None","None","1521968777","6536800585721577736","http://p3.pstatp.com/list/756100010151d09465ad","3","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536634432919437838","和老婆开房的钱都省了，自驾游再也不需要住宾馆了，幸福感爆棚","news_car","news_car","汽车","懂车品","https://www.toutiao.com/group/6536634432919437838/","//p1.pstatp.com/list/temai/FscL5QLAP9rF51MvkRjsAD8tm1Xy.png","/c/user/5500311915/","//p5a.pstatp.com/large/150c000d62e28150ed3f","1521968777","6536634432919437838","http://p1.pstatp.com/list/temai/FscL5QLAP9rF51MvkRjsAD8tm1Xy.png","14","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536700680835432974","“微信聊天，千万别总秒回！”","news_essay","news_essay","美文","女人微阅读","https://www.toutiao.com/group/6536700680835432974/","//p1.pstatp.com/list/190x124/pgc-image/15219441144658b65f3a07b","/c/user/71750748423/","//p3.pstatp.com/large/3eb3000433d6048745ac","1521968808","6536700680835432974","http://p1.pstatp.com/list/pgc-image/15219441144658b65f3a07b","24","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536799848614592781","为什么老实人反而人缘很差？","news_society","news_society","社会","悟空问答","https://www.toutiao.com/group/6536799848614592781/","//p1.pstatp.com/list/190x124/382d000d169633cb3d3a","None","None","1521968804","6536799848614592781","http://p1.pstatp.com/list/382d000d169633cb3d3a","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536441932019663373","相见恨晚的茶道配件，有意思！让你的茶桌格调翻几番~","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6536441932019663373/","//p1.pstatp.com/list/temai/Fn-OO-8p2t9a-M9ppRyrasW8Rg6t.jpg","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521968796","6536441932019663373","http://p1.pstatp.com/list/temai/Fn-OO-8p2t9a-M9ppRyrasW8Rg6t.jpg","15","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536466747640250637","二手车直卖网上的车真的就是个人的吗？","news_car","news_car","汽车","悟空问答","https://www.toutiao.com/group/6536466747640250637/","None","None","None","1521968837","6536466747640250637","None","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536798602939859470","用熟苹果做的萝卜，孩子腹泻48小时内搞掂，适合宝妈收藏！","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","时代界牌","https://www.toutiao.com/group/6536798602939859470/","//p3.pstatp.com/list/pgc-image/152196618261017705c5493","/c/user/68081556008/","//p1.pstatp.com/large/382d0014ed82ce5dc4cd","1521968833","6536798602939859470","http://p3.pstatp.com/list/pgc-image/152196618261017705c5493","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535397486951924228","为什么香港女人家里都是那么干净美观，看完下图，真的开眼了","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6535397486951924228/","//p3.pstatp.com/list/temai/FlWm5MtATozL_LMZ_X3IorZa6ByO.jpg","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521968829","6535397486951924228","http://p3.pstatp.com/list/temai/FlWm5MtATozL_LMZ_X3IorZa6ByO.jpg","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536799231150129678","蓟马治不住，因为打不着！","news_agriculture","search/?keyword=%E4%B8%89%E5%86%9C","三农","农业技术","https://www.toutiao.com/group/6536799231150129678/","//p1.pstatp.com/list/190x124/pgc-image/15219671627946f06f7d593","/c/user/5875714352/","//p2.pstatp.com/large/11735/1666572758","1521969034","6536799231150129678","http://p1.pstatp.com/list/pgc-image/15219671627946f06f7d593","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536792923629945091","为什么每逢农历三月三邵阳人要吃荠菜煮鸡蛋？","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","悟空问答","https://www.toutiao.com/group/6536792923629945091/","//p1.pstatp.com/list/190x124/6ef30009f168cd69ab8d","None","None","1521969006","6536792923629945091","http://p1.pstatp.com/list/6ef30009f168cd69ab8d","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536799143518535944","李陵为何能以五千步卒抵御8万匈奴骑兵八天八夜？","news_history","news_history","历史","悟空问答","https://www.toutiao.com/group/6536799143518535944/","//p3.pstatp.com/list/190x124/6ef20009fbd65ccb6c4b","None","None","1521968978","6536799143518535944","http://p3.pstatp.com/list/6ef20009fbd65ccb6c4b","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536410203582104067","东北林业大学老师评语火了！不想写作业只想看评语！","news","video","视频","夜航说法","https://www.toutiao.com/group/6536410203582104067/","//p1.pstatp.com/list/190x124/pgc-image/1521876448181c9c971740a","/c/user/69890238351/","//p7.pstatp.com/large/66b90003bba50e63972b","1521968950","6536410203582104067","http://p1.pstatp.com/list/pgc-image/1521876448181c9c971740a","0","None","58","1cf11208b23f434789fe0d411d2d3cac")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536329834656694788","让妈妈“爱不释手”的几个厨房神器，有的我都没见过，居家必备","news_home","news_home","家居","会生活","https://www.toutiao.com/group/6536329834656694788/","//p1.pstatp.com/list/573a0003f88679776c6e","/c/user/5573658957/","//p1.pstatp.com/large/ef6000f68b991be6663","1521968922","6536329834656694788","http://p1.pstatp.com/list/573a0003f88679776c6e","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536798069218869763","歌德：未曾哭过长夜的人，不足以语人生","news_culture","search/?keyword=%E6%96%87%E5%8C%96","文化","书香吉林","https://www.toutiao.com/group/6536798069218869763/","//i0.pstatp.com/list/6fa200044b33188bfada","/c/user/53068505513/","//p1.pstatp.com/large/13530004801d639afc7a","1521968894","6536798069218869763","http://i0.pstatp.com/list/6fa200044b33188bfada","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536448740939530765","肝不好的人，这4个特征至少中一个，真希望与你无关","news_health","news_health","健康","家庭医生在线网","https://www.toutiao.com/group/6536448740939530765/","//p9.pstatp.com/list/190x124/pgc-image/152196687305806ddb1bd7e","/c/user/53324103362/","//p1.pstatp.com/large/123200176d3c39c0cfda","1521968866","6536448740939530765","http://p9.pstatp.com/list/pgc-image/152196687305806ddb1bd7e","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536796491837604365","司机们注意，“蜘蛛侠”存在的安全隐患","news_society","news_society","社会","品派装","https://www.toutiao.com/group/6536796491837604365/","//p3.pstatp.com/list/190x124/pgc-image/152196485415136b3a8b097","/c/user/87517124017/","//p3.pstatp.com/large/6ed700055bcb053acabc","1521969034","6536796491837604365","http://p3.pstatp.com/list/pgc-image/152196485415136b3a8b097","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536800279239590413","《超感八人组》剧终特别篇完成最后拍摄","news_entertainment","news_entertainment","娱乐","美剧贩","https://www.toutiao.com/group/6536800279239590413/","//p3.pstatp.com/list/190x124/pgc-image/15219673702688b6f6db203","/c/user/3791627744/","//p1.pstatp.com/large/2305/7547462555","1521969006","6536800279239590413","http://p3.pstatp.com/list/pgc-image/15219673702688b6f6db203","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536504039889174788","丁宝桢在清末政坛上有何影响？","news_history","news_history","历史","悟空问答","https://www.toutiao.com/group/6536504039889174788/","//p3.pstatp.com/list/190x124/6ef300097428c1c46bd0","None","None","1521968978","6536504039889174788","http://p3.pstatp.com/list/6ef300097428c1c46bd0","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536797548105957640","做酱牛肉需要哪些香辛料和酱料，如何制作最入味？","news_food","news_food","美食","悟空问答","https://www.toutiao.com/group/6536797548105957640/","//p3.pstatp.com/list/190x124/71a5000d10f501297f53","None","None","1521968950","6536797548105957640","http://p3.pstatp.com/list/71a5000d10f501297f53","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536692550055494151","这些业务，土地所有者出让土地使用权时免征税","news_agriculture","search/?keyword=%E4%B8%89%E5%86%9C","三农","解税宝","https://www.toutiao.com/group/6536692550055494151/","//p1.pstatp.com/list/190x124/pgc-image/15219421698916c3c7b4e2f","/c/user/50812291270/","//p3.pstatp.com/large/d29000d75343f015bfe","1521968922","6536692550055494151","http://p1.pstatp.com/list/pgc-image/15219421698916c3c7b4e2f","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535594109363552775","长期便秘肠胃受罪，7个方法帮你轻松解决，便秘除了，身体也清了","news_health","news_health","健康","大医本草堂","https://www.toutiao.com/group/6535594109363552775/","//p3.pstatp.com/list/190x124/pgc-image/15216863961917aec62327e","/c/user/57575105068/","//p8.pstatp.com/large/438000024b827f2663e7","1521968894","6535594109363552775","http://p3.pstatp.com/list/pgc-image/15216863961917aec62327e","4","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536799713671250435","春季种菜养花，捡点肥料，韭菜长的壮，绿萝又绿又亮！","news_agriculture","search/?keyword=%E4%B8%89%E5%86%9C","三农","教你这样养花","https://www.toutiao.com/group/6536799713671250435/","//p9.pstatp.com/list/190x124/pgc-image/15219672404955b04cb3af0","/c/user/56871129557/","//p1.pstatp.com/large/1780000ab09ad14b649a","1521968866","6536799713671250435","http://p9.pstatp.com/list/pgc-image/15219672404955b04cb3af0","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536491702058746372","面试官沒想到来应聘者是自己老婆，整个人都吓坏了","news","video","视频","天空的颜色不是蓝","https://www.toutiao.com/group/6536491702058746372/","//p1.pstatp.com/list/190x124/7169000fb8b5caa3de16","/c/user/65535675628/","//p4.pstatp.com/large/5e8800042be5fa846488","1521969041","6536491702058746372","http://p1.pstatp.com/list/7169000fb8b5caa3de16","0","None","19","7feb7de515a241f29119305332ae4bbb")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536392453853807112","懂行人都不玩核桃了！真正有价值的手串是这8款，好看还升值","news_collect","search/?keyword=%E6%94%B6%E8%97%8F","收藏","酷奇潮玩","https://www.toutiao.com/group/6536392453853807112/","//p9.pstatp.com/list/573600045763363f198b","/c/user/5501814762/","//p3.pstatp.com/large/8121/5575184206","1521969040","6536392453853807112","http://p9.pstatp.com/list/573600045763363f198b","2","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536801828217029128","比张家界玻璃栈道恐怖10000倍！就在四川！敢不敢来？","news_travel","news_travel","旅游","汇客廰文旅","https://www.toutiao.com/group/6536801828217029128/","//p3.pstatp.com/list/190x124/pgc-image/1521967137912b8084128f1","/c/user/4631579122/","//p9.pstatp.com/large/3a0600043ccc1dca5055","1521969071","6536801828217029128","http://p3.pstatp.com/list/pgc-image/1521967137912b8084128f1","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536804698383450628","男子拥有百万家产却天天穿垃圾做成的衣服，吃垃圾桶里的食物","news_society","news_society","社会","光明网","https://www.toutiao.com/group/6536804698383450628/","//p9.pstatp.com/list/71f700051708d693d8f5","/c/user/5806115967/","//p4.pstatp.com/large/2c68000006582322ad80","1521969067","6536804698383450628","http://p9.pstatp.com/list/71f700051708d693d8f5","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536798833215537672","史上最强功夫皇帝是谁？真正铜头铁脑，以一当百，头硬命更硬！","news_history","news_history","历史","叶之秋","https://www.toutiao.com/group/6536798833215537672/","//p3.pstatp.com/list/190x124/pgc-image/15219670652585619533d32","/c/user/3632094234/","//p3.pstatp.com/large/8391/4682675237","1521969063","6536798833215537672","http://p3.pstatp.com/list/pgc-image/15219670652585619533d32","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536717960583578126","无论你收入多少，请记得分成五份！","news_essay","news_essay","美文","华夏仲研教育","https://www.toutiao.com/group/6536717960583578126/","//p3.pstatp.com/list/190x124/pgc-image/15219482233933ea5a278bd","/c/user/6862764405/","//p3.pstatp.com/large/97d0005f9fa31b5b5b2","1521969059","6536717960583578126","http://p3.pstatp.com/list/pgc-image/15219482233933ea5a278bd","31","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536798661051941380","新婚夫妻外出度假留下一张字条防小偷，回家竟发现小偷反送6万？","video_domestic","video","视频","爱疯的少年","https://www.toutiao.com/group/6536798661051941380/","//p1.pstatp.com/list/190x124/7313000dadd87770ea8d","/c/user/67078272343/","//p1.pstatp.com/large/36410014fd65a4836f7c","1521969055","6536798661051941380","http://p1.pstatp.com/list/7313000dadd87770ea8d","0","None","56","93f20cb008ef46db8c837e22d3fd3999")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536800496978493960","丹顶鹤遭殴打鲜血淋漓 园方：出手重了就像打孩子","news_society","news_society","社会","西楚网","https://www.toutiao.com/group/6536800496978493960/","//p3.pstatp.com/list/190x124/pgc-image/15219673363786aabcb26fc","/c/user/4176167047/","//p2.pstatp.com/large/2760/4058194514","1521969051","6536800496978493960","http://p3.pstatp.com/list/pgc-image/15219673363786aabcb26fc","4","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536800645867897348","电锯早就过时了！现流行这种“微型”五金工具，用就上瘾","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6536800645867897348/","//p3.pstatp.com/list/temai/FnWqlaKAcaRHGdQn10J9ln8wZ7tD.jpg","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521969047","6536800645867897348","http://p3.pstatp.com/list/temai/FnWqlaKAcaRHGdQn10J9ln8wZ7tD.jpg","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536801690555777294","如果交了社保，60岁退休拿养老金，61岁死了怎么办？","news_society","news_society","社会","悟空问答","https://www.toutiao.com/group/6536801690555777294/","None","None","None","1521969082","6536801690555777294","None","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536387781717918212","女婿敢在老丈人头上动土 简直是不想结婚了！","news","video","视频","吉视欢乐送","https://www.toutiao.com/group/6536387781717918212/","//p9.pstatp.com/list/190x124/pgc-image/152187111862159cbc54781","/c/user/79511821691/","//p1.pstatp.com/large/4af000058e536a33006e","1521969081","6536387781717918212","http://p9.pstatp.com/list/pgc-image/152187111862159cbc54781","0","None","1","8550e3df8d5b4a9c8c8f54ab465fc476")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536804515755065864","老公淘回来的生活神器，我嫌弃的要死，没想到用一次就征服了","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6536804515755065864/","//p3.pstatp.com/list/temai/FnYKPSJb4B-Q5UVUfBEphBZ5z6wC.jpg","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521969080","6536804515755065864","http://p3.pstatp.com/list/temai/FnYKPSJb4B-Q5UVUfBEphBZ5z6wC.jpg","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536684602981876227","看厨师长做的鸡蛋卷，和肉馅卷在一起，这是最好吃的做法了","video_food","video","视频","第一美食","https://www.toutiao.com/group/6536684602981876227/","//p1.pstatp.com/list/190x124/pgc-image/1521939954509da0df25875","/c/user/4243502186/","//p9.pstatp.com/large/4af000045f1d743ec429","1521969119","6536684602981876227","http://p1.pstatp.com/list/pgc-image/1521939954509da0df25875","37","None","30963","68f807fdd7164f4d8dd23b9cbf33ba4c")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536804698366673415","男子娶到女神后，婚后生活却很痛苦，男子坚持要离婚","emotion","search/?keyword=%E6%83%85%E6%84%9F","情感","光明网","https://www.toutiao.com/group/6536804698366673415/","//p1.pstatp.com/list/71f400068376fd069c6e","/c/user/5806115967/","//p4.pstatp.com/large/2c68000006582322ad80","1521969114","6536804698366673415","http://p1.pstatp.com/list/71f400068376fd069c6e","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536733865346597379","分享10首“安全儿歌”，家长和孩子一起，说唱安全！","news_baby","news_baby","育儿","涵爸育儿经","https://www.toutiao.com/group/6536733865346597379/","//p1.pstatp.com/list/190x124/pgc-image/1521951831864a2ab6da6c2","/c/user/63765615106/","//p10.pstatp.com/large/36420008c2e05bb4725c","1521969109","6536733865346597379","http://p1.pstatp.com/list/pgc-image/1521951831864a2ab6da6c2","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535150093828358664","男人学会几个方法！女人想不喜欢你都难","news_fashion","news_fashion","时尚","户外推荐","https://www.toutiao.com/group/6535150093828358664/","//p3.pstatp.com/list/temai/Fq0vIJ6VRgGd3Q-bfYk3VVo-R3wK.jpg","/c/user/5500950648/","//p2.pstatp.com/large/8125/3632431532","1521969104","6535150093828358664","http://p3.pstatp.com/list/temai/Fq0vIJ6VRgGd3Q-bfYk3VVo-R3wK.jpg","4","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536797469357900302","十堰春天最美的街道在这里，错过就要再等一年了","video_travel","video","视频","十堰生活","https://www.toutiao.com/group/6536797469357900302/","//p1.pstatp.com/list/190x124/73160002613fcefc78b1","/c/user/4595366277/","//p1.pstatp.com/large/d290017e5c38103d95a","1521969099","6536797469357900302","http://p1.pstatp.com/list/73160002613fcefc78b1","0","None","9","b74bb6c847f84987bddbbb3013071547")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536769814235447821","跳出职场鄙视链，和不完美共处","news_career","search/?keyword=%E8%81%8C%E5%9C%BA","职场","易喜聊成长","https://www.toutiao.com/group/6536769814235447821/","//p1.pstatp.com/list/190x124/pgc-image/152196024720650775ca706","/c/user/51036862375/","//p3.pstatp.com/large/d2900136a1a35f5e2f1","1521969094","6536769814235447821","http://p1.pstatp.com/list/pgc-image/152196024720650775ca706","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536797514136289544","华为美国受阻，国产手机们在海外还好吗？","digital","search/?keyword=%E6%95%B0%E7%A0%81","数码","悟空问答","https://www.toutiao.com/group/6536797514136289544/","//p3.pstatp.com/list/190x124/6ef30009f3e0d49cbad8","None","None","1521969089","6536797514136289544","http://p3.pstatp.com/list/6ef30009f3e0d49cbad8","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536804692150714883","一盒奶导致孩子住进重症监护室，再热心肠的人遇到这种事最好别做","news_baby","news_baby","育儿","光明网","https://www.toutiao.com/group/6536804692150714883/","//p1.pstatp.com/list/71f1000e31c77c8aefe4","/c/user/5806115967/","//p4.pstatp.com/large/2c68000006582322ad80","1521969131","6536804692150714883","http://p1.pstatp.com/list/71f1000e31c77c8aefe4","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536799912254767623","酒店婚宴生意火爆 千元一桌酒席需提前半年预定 服务员用鸟笼上菜","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","非常影像视点","https://www.toutiao.com/group/6536799912254767623/","//p3.pstatp.com/list/pgc-image/152196657228018465ca7f4","/c/user/52676137921/","//p3.pstatp.com/large/123300010a53a53aaf8c","1521969130","6536799912254767623","http://p3.pstatp.com/list/pgc-image/152196657228018465ca7f4","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536442704375579144","老公用私房钱也要买的汽车用品，小巧实用，真正把钱花在刀刃上","digital","search/?keyword=%E6%95%B0%E7%A0%81","数码","懂车品","https://www.toutiao.com/group/6536442704375579144/","//p3.pstatp.com/list/temai/Fnz9l197CuBp_W3z7lyIEB6VKqQx.png","/c/user/5500311915/","//p5a.pstatp.com/large/150c000d62e28150ed3f","1521969129","6536442704375579144","http://p3.pstatp.com/list/temai/Fnz9l197CuBp_W3z7lyIEB6VKqQx.png","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6534702471569211911","充气帐篷已落伍！时下流行这样的“户外神器”，性能强悍超强大啊","news_home","news_home","家居","户外推荐","https://www.toutiao.com/group/6534702471569211911/","//p9.pstatp.com/list/temai/FrB8c0FBkWkfaMZxd4nU3Upf7exN.png","/c/user/5500950648/","//p2.pstatp.com/large/8125/3632431532","1521969128","6534702471569211911","http://p9.pstatp.com/list/temai/FrB8c0FBkWkfaMZxd4nU3Upf7exN.png","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536742333327606279","大厨教你用电饭煲来煮鸡，鸡肉鲜嫩多汁香气扑鼻，比烧鸡好吃10倍","news_food","news_food","美食","御厨谈美食","https://www.toutiao.com/group/6536742333327606279/","//p1.pstatp.com/list/190x124/pgc-image/152195276875145b8db5565","/c/user/82140138101/","//p1.pstatp.com/large/509a000509401fadb7a9","1521969143","6536742333327606279","http://p1.pstatp.com/list/pgc-image/152195276875145b8db5565","3","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536802368246252035","锋龙股份中签号码出炉 共39996个","news_finance","news_finance","财经","金融界","https://www.toutiao.com/group/6536802368246252035/","None","/c/user/3815887397/","//p7.pstatp.com/large/16aa0010e57d9539a460","1521969142","6536802368246252035","None","14","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536771551209980430","学会这三种菜让你在家宴聚会上特有脸面，都会夸你心灵手巧","news_food","news_food","美食","发现大美","https://www.toutiao.com/group/6536771551209980430/","//p1.pstatp.com/list/190x124/pgc-image/15219604586555b1f67dae2","/c/user/62795512026/","//p1.pstatp.com/large/2c6500088042b31ac8cf","1521969141","6536771551209980430","http://p1.pstatp.com/list/pgc-image/15219604586555b1f67dae2","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536800645897257485","去大嫂家蹭饭，才发现她的厨房和卫生间真讲究，干净整洁腾空","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6536800645897257485/","//p3.pstatp.com/list/temai/FiHRW2jEldijIDdcMu-pkw2fzajY.jpg","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521969140","6536800645897257485","http://p3.pstatp.com/list/temai/FiHRW2jEldijIDdcMu-pkw2fzajY.jpg","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536738012837970445","超级好下饭的酸辣猪耳朵，掌握这个技巧更好吃，你们学会了吗？","news_food","news_food","美食","美食八通天","https://www.toutiao.com/group/6536738012837970445/","//p3.pstatp.com/list/190x124/pgc-image/152195285560271b3926609","/c/user/6286358235/","//p9.pstatp.com/large/123200176cadd18105cd","1521969139","6536738012837970445","http://p3.pstatp.com/list/pgc-image/152195285560271b3926609","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536798628298621454","都市男女的“欲望之屋” / Wutopia Lab","news_home","news_home","家居","熙和","https://www.toutiao.com/group/6536798628298621454/","//p3.pstatp.com/list/190x124/pgc-image/152196674893477207a925b","/c/user/5862658124/","//p1.pstatp.com/large/71a20001eb7aac22a92a","1521969138","6536798628298621454","http://p3.pstatp.com/list/pgc-image/152196674893477207a925b","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536756076371509773","中国对洋垃圾说不，废船也不予进口，不过航空母舰可例外","news_military","news_military","军事","跟乌龙涨姿势","https://www.toutiao.com/group/6536756076371509773/","//p3.pstatp.com/list/190x124/pgc-image/1521956043557e6d9ef577e","/c/user/69771916656/","//p1.pstatp.com/large/3b09000481c151e1de7f","1521969137","6536756076371509773","http://p3.pstatp.com/list/pgc-image/1521956043557e6d9ef577e","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536801607076544771","pixiv有哪些画军事类插画的优秀画师呢？","news_comic","search/?keyword=%E5%8A%A8%E6%BC%AB","动漫","悟空问答","https://www.toutiao.com/group/6536801607076544771/","//p3.pstatp.com/list/190x124/71a0001b395d33cfa88e","None","None","1521969184","6536801607076544771","http://p3.pstatp.com/list/71a0001b395d33cfa88e","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536486283835867651","日本最不务正业的动物园，收养流浪动物，一年亏损500万","news_pet","search/?keyword=%E5%AE%A0%E7%89%A9","宠物","大爱宠物猫狗控","https://www.toutiao.com/group/6536486283835867651/","//p3.pstatp.com/list/190x124/pgc-image/1521893883037e2a626489f","/c/user/50242142670/","//p7.pstatp.com/large/5e79000177fbaf42b478","1521969179","6536486283835867651","http://p3.pstatp.com/list/pgc-image/1521893883037e2a626489f","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536773553713316360","下周或有大反击！","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","天堂财经沙龙","https://www.toutiao.com/group/6536773553713316360/","//p1.pstatp.com/list/190x124/pgc-image/15219611649859326a9a2bb","/c/user/72055007400/","//p3.pstatp.com/large/40020000bab2333164c0","1521969174","6536773553713316360","http://p1.pstatp.com/list/pgc-image/15219611649859326a9a2bb","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536400957696115214","手机只能放在裤兜？这款手机，即便握在手里都不碍事","digital","search/?keyword=%E6%95%B0%E7%A0%81","数码","数码周刊","https://www.toutiao.com/group/6536400957696115214/","//p3.pstatp.com/list/temai/FvGTM2ykSsBQrkhtVnIKBZD_Apo9.jpg","/c/user/5500803015/","//p3.pstatp.com/large/8122/5031726784","1521969169","6536400957696115214","http://p3.pstatp.com/list/temai/FvGTM2ykSsBQrkhtVnIKBZD_Apo9.jpg","3","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536784338321670403","拍黄瓜怎么做最好吃？","news_food","news_food","美食","悟空问答","https://www.toutiao.com/group/6536784338321670403/","//p3.pstatp.com/list/190x124/18a3000ab1e02fd771dd","None","None","1521969164","6536784338321670403","http://p3.pstatp.com/list/18a3000ab1e02fd771dd","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536409465044861448","让女司机爱不释手的车载神器，实体店跑断腿都难买到","news_car","news_car","汽车","懂车品","https://www.toutiao.com/group/6536409465044861448/","//p3.pstatp.com/list/temai/FvYcA8bWggvq6lISyrRQ2RjGiGNO.jpg","/c/user/5500311915/","//p5a.pstatp.com/large/150c000d62e28150ed3f","1521969451","6536409465044861448","http://p3.pstatp.com/list/temai/FvYcA8bWggvq6lISyrRQ2RjGiGNO.jpg","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536797705568518660","国家新闻出版广电总局拆分前为啥下发一份“特急文件”？","news_culture","search/?keyword=%E6%96%87%E5%8C%96","文化","每经影视","https://www.toutiao.com/group/6536797705568518660/","//i0.pstatp.com/list/726b0008ab5d1e53ac6a","/c/user/50727452990/","//p2.pstatp.com/large/bc3000eef11c076d5be","1521969413","6536797705568518660","http://i0.pstatp.com/list/726b0008ab5d1e53ac6a","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535953541079499011","中国学习能力研究院，专业师资培训基地！","ad","search/?keyword=None","None","文尊教育","https://www.toutiao.comhttp://ad.toutiao.com/tetris/page/1595608618758158/?ad_id=93013961991&cid=93058638310&req_id=20180325171730010006029030810A50","","None","None","1521969375","6535953541079499011","{}","0","None","0","0")
+            
+execute result is 1
+(1406, "Data too long for column 'image_url' at row 1")
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536806287097725444","成都女子监狱服刑人员走出高墙赴映秀体验“生命”主题","news_society","news_society","社会","司法部","https://www.toutiao.com/group/6536806287097725444/","None","/c/user/59419339388/","//p1.pstatp.com/large/1bf4001adae4774a2dc7","1521969337","6536806287097725444","None","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536798060826067470","为什么我们拍不好国产职场剧？","news_entertainment","news_entertainment","娱乐","书香吉林","https://www.toutiao.com/group/6536798060826067470/","//i0.pstatp.com/list/726a0008c279339296f0","/c/user/53068505513/","//p1.pstatp.com/large/13530004801d639afc7a","1521969299","6536798060826067470","http://i0.pstatp.com/list/726a0008c279339296f0","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6534100573032022535","挪车神器终于问世！分分钟移走一辆车，看谁还敢乱占停车位","video_car","video","视频","创意时刻","https://www.toutiao.com/group/6534100573032022535/","//p3.pstatp.com/list/190x124/pgc-image/152188672685091fae5c932","/c/user/54312175492/","//p9.pstatp.com/large/16ab0009d0fced4a0229","1521969261","6534100573032022535","http://p3.pstatp.com/list/pgc-image/152188672685091fae5c932","73","None","74033","a2ddb4c90797466199ecff56e8af8f70")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536800660963197447","《邪恶力量》主创否认即将完结谣传","news_entertainment","news_entertainment","娱乐","美剧贩","https://www.toutiao.com/group/6536800660963197447/","//p1.pstatp.com/list/190x124/pgc-image/152196746733586747a1231","/c/user/3791627744/","//p1.pstatp.com/large/2305/7547462555","1521969542","6536800660963197447","http://p1.pstatp.com/list/pgc-image/152196746733586747a1231","3","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536799192172462605","安徽宿松：面包车迎面猛撞大货车 司机抢救无效身亡","video_domestic","video","视频","我在现场","https://www.toutiao.com/group/6536799192172462605/","//p3.pstatp.com/list/190x124/pgc-image/1521967120685e666f48164","/c/user/5768104188/","//p3.pstatp.com/large/9641/7055518326","1521969529","6536799192172462605","http://p3.pstatp.com/list/pgc-image/1521967120685e666f48164","7","None","747","fb68bea2b0dd4b1f9e320862a5b83d20")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536800304397025806","一张图了解世界武术的起源和分类","news_culture","search/?keyword=%E6%96%87%E5%8C%96","文化","格斗酷","https://www.toutiao.com/group/6536800304397025806/","//p1.pstatp.com/list/190x124/pgc-image/15219671382759390dc16e5","/c/user/6452741384/","//p2.pstatp.com/large/411000d0e77f8fefd65","1521969516","6536800304397025806","http://p1.pstatp.com/list/pgc-image/15219671382759390dc16e5","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536797092524851716","如何提高小吃店的“翻台率”","news_career","search/?keyword=%E8%81%8C%E5%9C%BA","职场","尚谷陕西小吃培训","https://www.toutiao.com/group/6536797092524851716/","//p1.pstatp.com/list/190x124/pgc-image/152196661615612853b10a2","/c/user/6765956137/","//p3.pstatp.com/large/6cb002ad3c9b17f7523","1521969503","6536797092524851716","http://p1.pstatp.com/list/pgc-image/152196661615612853b10a2","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6526131951059862023","情侣住旅馆多长个心眼，带上这几种私人用品，安全卫生还隔脏","news_home","news_home","家居","户外推荐","https://www.toutiao.com/group/6526131951059862023/","//p3.pstatp.com/list/temai/Fr-_NFpW911a-eqbemEatQKYhtHZ.jpg","/c/user/5500950648/","//p2.pstatp.com/large/8125/3632431532","1521969490","6526131951059862023","http://p3.pstatp.com/list/temai/Fr-_NFpW911a-eqbemEatQKYhtHZ.jpg","19","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536798879113806339","萌妹子吃海鲜辣火锅，满满一大勺饭配上美味海鲜，看着就很有食欲","video_food","video","视频","逗趣麻花","https://www.toutiao.com/group/6536798879113806339/","//p3.pstatp.com/list/190x124/7314000da8a9a0da09fb","/c/user/69055972129/","//p3.pstatp.com/large/3a010000ab6d2b5ffee6","1521969477","6536798879113806339","http://p3.pstatp.com/list/7314000da8a9a0da09fb","0","None","221","8a89ad62c1e340fb99559ef739c25293")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536798696535753224","换个角度看AI：追溯人工智能研究的历史和哲学逻辑","news_tech","news_tech","科技","大数据文摘","https://www.toutiao.com/group/6536798696535753224/","//p1.pstatp.com/list/190x124/pgc-image/152196700995130e83539e3","/c/user/3135628917/","//p1.pstatp.com/large/135400051a40473d8ec5","1521969464","6536798696535753224","http://p1.pstatp.com/list/pgc-image/152196700995130e83539e3","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536380921610764548","约女生除了请吃饭看电影还有什么好的活动？","emotion","search/?keyword=%E6%83%85%E6%84%9F","情感","悟空问答","https://www.toutiao.com/group/6536380921610764548/","//p3.pstatp.com/list/190x124/3ea400008f3429f5ba83","None","None","1521969584","6536380921610764548","http://p3.pstatp.com/list/3ea400008f3429f5ba83","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536706837708800516","这14种食物放冰箱坏更快！看完后马上去清理！","news_home","news_home","家居","中国经济网","https://www.toutiao.com/group/6536706837708800516/","//p9.pstatp.com/list/190x124/6ecb00110dc25fe6161c","/c/user/50502346296/","//p3.pstatp.com/large/ca5000310a941972502","1521969578","6536706837708800516","http://p9.pstatp.com/list/6ecb00110dc25fe6161c","5","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6515048516283269640","花生米新做法，不用案板不用刀，就是这么简单，大人小孩都喜欢吃","video_food","video","视频","咱家美食","https://www.toutiao.com/group/6515048516283269640/","//p3.pstatp.com/list/190x124/5b510003962fb70a4a8c","/c/user/69517388911/","//p9.pstatp.com/large/50a80001ab6b95b40012","1521969572","6515048516283269640","http://p3.pstatp.com/list/5b510003962fb70a4a8c","312","None","987568","b753ed59a66f4c4187863628136b0c09")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536802191913517581","老旧水龙头别用了，现都流行这样的“黑科技”，老婆下厨没烦恼","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6536802191913517581/","//p3.pstatp.com/list/temai/FqCtvYTFbuhsBbQq6ZOtQvDxbYTl.jpg","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521969566","6536802191913517581","http://p3.pstatp.com/list/temai/FqCtvYTFbuhsBbQq6ZOtQvDxbYTl.jpg","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536802941959930382","4个症状一经发现，可以确定：你已经缺钙了！","news_health","news_health","健康","39健康网","https://www.toutiao.com/group/6536802941959930382/","//p3.pstatp.com/list/190x124/pgc-image/15219680257679ad344f490","/c/user/3414105634/","//p2.pstatp.com/thumb/1134/4345834462","1521969554","6536802941959930382","http://p3.pstatp.com/list/pgc-image/15219680257679ad344f490","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536801996815467022","85㎡新房装修成美式风格, 阳台打上柜子还很实用, 邻居都夸装的好","news_home","news_home","家居","乐家网","https://www.toutiao.com/group/6536801996815467022/","//p3.pstatp.com/list/190x124/pgc-image/152196780167007cee5157c","/c/user/4674499974/","//p2.pstatp.com/large/7429/1914623714","1521969548","6536801996815467022","http://p3.pstatp.com/list/pgc-image/152196780167007cee5157c","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536804857280463117","古代在翻译外文上的习惯和方法是怎样的？","news_culture","search/?keyword=%E6%96%87%E5%8C%96","文化","悟空问答","https://www.toutiao.com/group/6536804857280463117/","//p9.pstatp.com/list/190x124/6ef40005ade417e8d71a","None","None","1521969593","6536804857280463117","http://p9.pstatp.com/list/6ef40005ade417e8d71a","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6533289255043596804","小个子女人穿裙子要不要过膝？学学下面这样穿，1米5穿出165","news_fashion","news_fashion","时尚","每日搭配之道","https://www.toutiao.com/group/6533289255043596804/","//p1.pstatp.com/list/temai/FkvX75VLNags4x84Lat3J1C4dNFq.jpg","/c/user/5500358214/","//p3.pstatp.com/large/8112/3580274368","1521969590","6533289255043596804","http://p1.pstatp.com/list/temai/FkvX75VLNags4x84Lat3J1C4dNFq.jpg","13","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536508996445012487","饭店最火6道凉拌菜做法，教你在家轻松搞定，简单美味家人超爱吃","news_food","news_food","美食","喂谷美食","https://www.toutiao.com/group/6536508996445012487/","//p3.pstatp.com/list/190x124/pgc-image/15218994875920ae0a1fe0f","/c/user/64698964215/","//p1.pstatp.com/large/2c65001967ec69eb5b98","1521969600","6536508996445012487","http://p3.pstatp.com/list/pgc-image/15218994875920ae0a1fe0f","29","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536024255820202499","是攀比之风还是农村收入真的提高上去了？村里怎么这么多汽车？","news_car","news_car","汽车","农机直通车","https://www.toutiao.com/group/6536024255820202499/","//p9.pstatp.com/list/190x124/pgc-image/1521786278167f2cc9b0420","/c/user/56758755921/","//p3.pstatp.com/large/16ab0013681245dde33e","1521969599","6536024255820202499","http://p9.pstatp.com/list/pgc-image/1521786278167f2cc9b0420","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536798271615009294","30年养蜂人教你如何辨别：真假蜂蜜，只需一杯凉白开即可！","video_life_tips","video","视频","拾米视频","https://www.toutiao.com/group/6536798271615009294/","//p9.pstatp.com/list/190x124/pgc-image/1521966888135c5587ce23f","/c/user/62957307808/","//p5a.pstatp.com/large/6c2c000011fa8755bdc9","1521969598","6536798271615009294","http://p9.pstatp.com/list/pgc-image/1521966888135c5587ce23f","0","None","27","d4164d5d4aaf4b1e98058bb7479afa8d")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536765615380627975","重庆有个地方满街是“国军”，立抗战胜利记功碑，仿佛回到国统区","news_travel","news_travel","旅游","书影","https://www.toutiao.com/group/6536765615380627975/","//p3.pstatp.com/list/190x124/pgc-image/1521846934799f40f94c1ff","/c/user/5546812621/","//p3.pstatp.com/large/8602/871999384","1521969597","6536765615380627975","http://p3.pstatp.com/list/pgc-image/1521846934799f40f94c1ff","177","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536793943923753476","5 个助眠小窍门，助你一夜好眠，梦甜！","news_home","news_home","家居","食安香洲","https://www.toutiao.com/group/6536793943923753476/","//p9.pstatp.com/list/190x124/pgc-image/152196571535220196f805c","/c/user/58674714760/","//p4.pstatp.com/large/5e7300015e1f9f81490d","1521969596","6536793943923753476","http://p9.pstatp.com/list/pgc-image/152196571535220196f805c","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536785187886334467","饺子馆兴奋了！有了这款包饺子利器，饺子个个饱满好看有食欲","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6536785187886334467/","//p3.pstatp.com/list/469c0004dd2dc8c4e5f3","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521969595","6536785187886334467","http://p3.pstatp.com/list/469c0004dd2dc8c4e5f3","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536781695733989902","三价合一，这次伤了中介和炒房客，乐了谁？","news_house","search/?keyword=%E6%88%BF%E4%BA%A7","房产","房天下资讯","https://www.toutiao.com/group/6536781695733989902/","//p3.pstatp.com/list/190x124/71f2000dce987238f40a","/c/user/3365711366/","//p2.pstatp.com/large/1039/2010160060","1521969594","6536781695733989902","http://p3.pstatp.com/list/71f2000dce987238f40a","47","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535743845362041357","娱乐圈中的她们长得很美却至今未红，具体原因是什么，你们知道吗","news_entertainment","news_entertainment","娱乐","娱乐會","https://www.toutiao.com/group/6535743845362041357/","//p1.pstatp.com/list/190x124/pgc-image/1521721358497d25b56375f","/c/user/69364571925/","//p3.pstatp.com/large/4af800000e8bf83db2e8","1521969671","6535743845362041357","http://p1.pstatp.com/list/pgc-image/1521721358497d25b56375f","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536795148297175310","麻婆豆腐怎么做才正宗又好吃？","news_food","news_food","美食","悟空问答","https://www.toutiao.com/group/6536795148297175310/","//p3.pstatp.com/list/190x124/6ef10008eba3e980aad0","None","None","1521969661","6536795148297175310","http://p3.pstatp.com/list/6ef10008eba3e980aad0","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536796165332009479","偷得浮生半日闲，点上一支香烟，拍出不一样的照片","news_culture","search/?keyword=%E6%96%87%E5%8C%96","文化","江上渔夫","https://www.toutiao.com/group/6536796165332009479/","//p3.pstatp.com/list/190x124/pgc-image/15219660524137032e4f7e7","/c/user/56322570315/","//p7.pstatp.com/large/5d48000991ba7d26f6eb","1521969651","6536796165332009479","http://p3.pstatp.com/list/pgc-image/15219660524137032e4f7e7","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535319398427656717","越来越多人家里都不用保鲜袋，18年流行这些居家好物，涨见识了","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6535319398427656717/","//p3.pstatp.com/list/temai/FnE68_yt2ntfzwEJBZpPsZwjsJLQ.jpg","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521969641","6535319398427656717","http://p3.pstatp.com/list/temai/FnE68_yt2ntfzwEJBZpPsZwjsJLQ.jpg","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536799327275188749","美女司机机智应对碰瓷，套路人人会玩，各有巧妙不同！","news","video","视频","哎呀逗先生","https://www.toutiao.com/group/6536799327275188749/","//p3.pstatp.com/list/190x124/pgc-image/15219666635558782c7fb20","/c/user/50440823483/","//p3.pstatp.com/large/ef5001585cfe0a87c64","1521969621","6536799327275188749","http://p3.pstatp.com/list/pgc-image/15219666635558782c7fb20","0","None","2","a63618a2b4a54484aceafb3851b8bdfd")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536668864564953613","荷包蛋怎么煮不会散？只需借助一把小勺子，分分钟就搞定！","video_food","video","视频","农家小灶","https://www.toutiao.com/group/6536668864564953613/","//p1.pstatp.com/list/190x124/pgc-image/152193674551785fd58cca3","/c/user/73871545659/","//p3.pstatp.com/large/4347000232c79091934f","1521969611","6536668864564953613","http://p1.pstatp.com/list/pgc-image/152193674551785fd58cca3","0","None","70","112b3fc400584712943810702a4c0d81")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536804261232115981","为什么有钱人赚钱那么容易？","news_society","news_society","社会","悟空问答","https://www.toutiao.com/group/6536804261232115981/","//p1.pstatp.com/list/190x124/71a0001b3476c813844f","None","None","1521969683","6536804261232115981","http://p1.pstatp.com/list/71a0001b3476c813844f","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536804109482197262","卸妆膏，卸妆油，卸妆水这些应该怎么来选择？","news_fashion","news_fashion","时尚","悟空问答","https://www.toutiao.com/group/6536804109482197262/","//p3.pstatp.com/list/190x124/719d0017ab7b8ffefced","None","None","1521969682","6536804109482197262","http://p3.pstatp.com/list/719d0017ab7b8ffefced","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536796746213753357","在这三件事上，不能和领导较真，否则就是自找麻烦！","news_career","search/?keyword=%E8%81%8C%E5%9C%BA","职场","点跃职场","https://www.toutiao.com/group/6536796746213753357/","//p3.pstatp.com/list/190x124/pgc-image/15219664324891b1ebf54b7","/c/user/3764092152/","//p3.pstatp.com/large/1355000dfeb6a07e5f67","1521969681","6536796746213753357","http://p3.pstatp.com/list/pgc-image/15219664324891b1ebf54b7","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6532727991816946183","45-60岁妈妈别穿太老，今年正流行的款式，真的年轻10岁","news_fashion","news_fashion","时尚","会生活","https://www.toutiao.com/group/6532727991816946183/","//p9.pstatp.com/list/temai/FszMh5YTOchziWjNGx8mKcWL_JR4.png","/c/user/5573658957/","//p1.pstatp.com/large/ef6000f68b991be6663","1521969680","6532727991816946183","http://p9.pstatp.com/list/temai/FszMh5YTOchziWjNGx8mKcWL_JR4.png","3","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536806696793145870","明星演完戏都记不起演过什么，这种操作都有？","news_entertainment","news_entertainment","娱乐","墨娱","https://www.toutiao.com/group/6536806696793145870/","//p1.pstatp.com/list/190x124/pgc-image/1521968621406b9f320177f","/c/user/56813479509/","//p1.pstatp.com/large/1782000ab1b94218ba91","1521969679","6536806696793145870","http://p1.pstatp.com/list/pgc-image/1521968621406b9f320177f","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536801936664953101","如何看待长沙一名11个月大男童跌入自家水缸溺亡，事发时奶奶在楼下打麻将？","news_society","news_society","社会","悟空问答","https://www.toutiao.com/group/6536801936664953101/","//p3.pstatp.com/list/190x124/71a200191d70d325e3a3","None","None","1521969678","6536801936664953101","http://p3.pstatp.com/list/71a200191d70d325e3a3","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536807012510990855","你家的阳台还是只用来晾衣服，人家有钱人都直接在阳台养鱼了！","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","周忠侃家居","https://www.toutiao.com/group/6536807012510990855/","//p9.pstatp.com/list/190x124/ba500046a09a48153ea","/c/user/5932390028/","//p2.pstatp.com/large/4d0004be4205615b62","1521969677","6536807012510990855","http://p9.pstatp.com/list/ba500046a09a48153ea","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536798149040668932","哈尔滨的宾县有哪些景区？","news_travel","news_travel","旅游","悟空问答","https://www.toutiao.com/group/6536798149040668932/","//p3.pstatp.com/list/190x124/3a21000dcc12e514dc49","None","None","1521969717","6536798149040668932","http://p3.pstatp.com/list/3a21000dcc12e514dc49","2","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536798839565713934","钱穆的生平及学问，大师是这样炼成的","news_culture","search/?keyword=%E6%96%87%E5%8C%96","文化","饮冰历史","https://www.toutiao.com/group/6536798839565713934/","//p1.pstatp.com/list/190x124/pgc-image/152196641087962b7f99864","/c/user/51516742331/","//p3.pstatp.com/large/2c660007d3f62a85d320","1521969713","6536798839565713934","http://p1.pstatp.com/list/pgc-image/152196641087962b7f99864","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536797279733416196","对越来越多的旅游景点在朋友圈中的转发宣传你有何看法？","news_travel","news_travel","旅游","悟空问答","https://www.toutiao.com/group/6536797279733416196/","//p3.pstatp.com/list/190x124/6ef20009fa55721731ea","None","None","1521969709","6536797279733416196","http://p3.pstatp.com/list/6ef20009fa55721731ea","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535550553643024899","专为胖妹设计的大码装，最大5XL，胖人穿很美，不胖穿不出气质","news_fashion","news_fashion","时尚","每日搭配之道","https://www.toutiao.com/group/6535550553643024899/","//p1.pstatp.com/list/temai/5b91f1a089a45036944d188014364ba77215274e","/c/user/5500358214/","//p3.pstatp.com/large/8112/3580274368","1521969705","6535550553643024899","http://p1.pstatp.com/list/temai/5b91f1a089a45036944d188014364ba77215274e","3","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536728179690701326","拼多多的求生之路，规规矩矩的卖家如何求生存？","news_tech","news_tech","科技","C仔老师的神回复","https://www.toutiao.com/group/6536728179690701326/","//p1.pstatp.com/list/190x124/pgc-image/15219495154594236d512ee","/c/user/50512723353/","//p1.pstatp.com/large/6c2c0003f74b3387fea5","1521969733","6536728179690701326","http://p1.pstatp.com/list/pgc-image/15219495154594236d512ee","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536799584880951821","日本要脸吗？连续3次挑衅之后，还想租借第10只大熊猫","video_animal","video","视频","海外探客","https://www.toutiao.com/group/6536799584880951821/","//p3.pstatp.com/list/190x124/pgc-image/15219671208748177118f8f","/c/user/5976212032/","//p2.pstatp.com/large/4d000b0d82af687150","1521969731","6536799584880951821","http://p3.pstatp.com/list/pgc-image/15219671208748177118f8f","0","None","145","17dc7be265024f92951405a7ad4dabee")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535660335032959501","如果你没过60岁，今年春天就穿这8款套装，穿出了35岁女人味","news_fashion","news_fashion","时尚","每日搭配之道","https://www.toutiao.com/group/6535660335032959501/","//p3.pstatp.com/list/temai/FjVOOPGOU58QdzbQobPp2Fg6ghfH.jpg","/c/user/5500358214/","//p3.pstatp.com/large/8112/3580274368","1521969727","6535660335032959501","http://p3.pstatp.com/list/temai/FjVOOPGOU58QdzbQobPp2Fg6ghfH.jpg","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536799560910504200","五倍子粉可以泡水喝吗？","news_health","news_health","健康","悟空问答","https://www.toutiao.com/group/6536799560910504200/","//p1.pstatp.com/list/190x124/6ef20009fb28f46fac7c","None","None","1521969721","6536799560910504200","http://p1.pstatp.com/list/6ef20009fb28f46fac7c","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536797453478265102","护士资格证上的照片可以换掉吗？","funny","funny","搞笑","悟空问答","https://www.toutiao.com/group/6536797453478265102/","//p1.pstatp.com/list/190x124/6ef40005a415f4110207","None","None","1521969739","6536797453478265102","http://p1.pstatp.com/list/6ef40005a415f4110207","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536801799821591047","20以上女生需要必备哪些基础款鞋子？","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","韬哥侃天下","https://www.toutiao.com/group/6536801799821591047/","//p3.pstatp.com/list/pgc-image/1521967645006dd97647d3b","/c/user/15846425174/","//p3.pstatp.com/large/364400182f9fce99eb5c","1521969739","6536801799821591047","http://p3.pstatp.com/list/pgc-image/1521967645006dd97647d3b","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536324543420563975","3条灵验的民间风水俗语（收藏吧）","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","伏魔酱","https://www.toutiao.com/group/6536324543420563975/","//p3.pstatp.com/list/pgc-image/1521856342823da8da2c0df","/c/user/74083190449/","//p9.pstatp.com/large/6c2e00049d380792e0d6","1521969739","6536324543420563975","http://p3.pstatp.com/list/pgc-image/1521856342823da8da2c0df","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6534346846020567555","如果你年过50，建议你穿的嫩一点，多穿这样“减龄裙”，显年轻","news_fashion","news_fashion","时尚","每日搭配之道","https://www.toutiao.com/group/6534346846020567555/","//p1.pstatp.com/list/temai/9a92816ad6b538320518f0d47403201ae789a5b5","/c/user/5500358214/","//p3.pstatp.com/large/8112/3580274368","1521969739","6534346846020567555","http://p1.pstatp.com/list/temai/9a92816ad6b538320518f0d47403201ae789a5b5","8","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536795360432488968","刘昆：合理提高个税减除费用标准 增加大病医疗等专项扣除","video_health","video","视频","央视新闻","https://www.toutiao.com/group/6536795360432488968/","//p1.pstatp.com/list/190x124/71f3000deae17d8a5077","/c/user/4492956276/","//p2.pstatp.com/large/4306/2602403105","1521969745","6536795360432488968","http://p1.pstatp.com/list/71f3000deae17d8a5077","0","None","60090","32f0213cdc86498ab2ad499cddf2ca48")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536795937770045700","在农村，为什么愿意养牛的人越来越少？","news_agriculture","search/?keyword=%E4%B8%89%E5%86%9C","三农","悟空问答","https://www.toutiao.com/group/6536795937770045700/","//p1.pstatp.com/list/190x124/4a35000699a490cfc03f","None","None","1521969745","6536795937770045700","http://p1.pstatp.com/list/4a35000699a490cfc03f","2","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536797222757990663","我们如何在交通事故中快速反应？","news_society","news_society","社会","悟空问答","https://www.toutiao.com/group/6536797222757990663/","//p3.pstatp.com/list/190x124/6ef20009f65ab5ef692b","None","None","1521969745","6536797222757990663","http://p3.pstatp.com/list/6ef20009f65ab5ef692b","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536796426381296142","两千多年前的女企业家，秦始皇亲自接见，保镖就有两千多人","news_history","news_history","历史","古今事","https://www.toutiao.com/group/6536796426381296142/","//p1.pstatp.com/list/190x124/pgc-image/15219656842669d05de38b2","/c/user/3642102526/","//p1.pstatp.com/large/e590008ab7194ad6a36","1521969745","6536796426381296142","http://p1.pstatp.com/list/pgc-image/15219656842669d05de38b2","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536380743713554958","恨人！开锁公司上门服务 业主被要求证明“我是我”！","news","video","视频","吉视欢乐送","https://www.toutiao.com/group/6536380743713554958/","//p3.pstatp.com/list/190x124/pgc-image/152186949250682b4333e88","/c/user/79511821691/","//p1.pstatp.com/large/4af000058e536a33006e","1521969745","6536380743713554958","http://p3.pstatp.com/list/pgc-image/152186949250682b4333e88","0","None","14","e78bf2a90c534477aa29933d4ccea271")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535735323693941255","洗碗机过时了，如今流行这种刷碗神器，刷碗一喷搞定，关键贼便宜","news_home","news_home","家居","放心家居","https://www.toutiao.com/group/6535735323693941255/","//p9.pstatp.com/list/temai/Fu4PY4BFpqu3G0vczuhYZOfiRy1w.png","/c/user/5500903267/","//p2.pstatp.com/large/8114/986623117","1521969745","6535735323693941255","http://p9.pstatp.com/list/temai/Fu4PY4BFpqu3G0vczuhYZOfiRy1w.png","4","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536799472029008397","LOL：EDG2比1有惊无险拿下OMG，距离登顶西部只剩一步之遥","news_game","news_game","游戏","大电竞","https://www.toutiao.com/group/6536799472029008397/","//p1.pstatp.com/list/190x124/pgc-image/15219672181721839f9ab91","/c/user/6037535658/","//p10.pstatp.com/large/289a000e171bb5dff337","1521969745","6536799472029008397","http://p1.pstatp.com/list/pgc-image/15219672181721839f9ab91","48","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6513789317544935943","美国预言恐成真，日本附近海域三天两次地震 这背后隐藏着什么","news_world","news_world","国际","光明网","https://www.toutiao.com/group/6513789317544935943/","//p1.pstatp.com/list/71f2000b5e33f864db81","/c/user/5806115967/","//p4.pstatp.com/large/2c68000006582322ad80","1521969795","6513789317544935943","http://p1.pstatp.com/list/71f2000b5e33f864db81","103","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536409697333805571","穿越民国看老重庆：这里抗战遗址遍地，被冯导看中拍戏","news_entertainment","news_entertainment","娱乐","九头鸟自媒体","https://www.toutiao.com/group/6536409697333805571/","//p1.pstatp.com/list/pgc-image/1521876108038d41349bb0b","/c/user/50096087441/","//p3.pstatp.com/large/97e001bc4bb59e02fb7","1521969788","6536409697333805571","http://p1.pstatp.com/list/pgc-image/1521876108038d41349bb0b","9","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6529714217811968515","农村新型四驱微耕机，秒杀各种微耕机，霸道能力让人乍舌！","news_agriculture","search/?keyword=%E4%B8%89%E5%86%9C","三农","农夫经","https://www.toutiao.com/group/6529714217811968515/","//p9.pstatp.com/list/6c2c0004fe1d35f9ae1f","/c/user/64455684753/","//p10.pstatp.com/large/5e7f00017264f335c689","1521969781","6529714217811968515","http://p9.pstatp.com/list/6c2c0004fe1d35f9ae1f","80","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535564852914553347","男子整容上瘾疯狂整容，整容后疼痛得彻夜难眠","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","光明网","https://www.toutiao.com/group/6535564852914553347/","//p3.pstatp.com/list/6ecc000ee6da75c93aa7","/c/user/5806115967/","//p4.pstatp.com/large/2c68000006582322ad80","1521969774","6535564852914553347","http://p3.pstatp.com/list/6ecc000ee6da75c93aa7","6","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535770886417416708","春季春游，怎么穿才洋气漂亮？精挑9款中老年女装，年轻十八九岁","news_fashion","news_fashion","时尚","每日搭配之道","https://www.toutiao.com/group/6535770886417416708/","//p1.pstatp.com/list/temai/FmPYCumY6rxR14xI-Wnj_F5pl6gE.jpg","/c/user/5500358214/","//p3.pstatp.com/large/8112/3580274368","1521969767","6535770886417416708","http://p1.pstatp.com/list/temai/FmPYCumY6rxR14xI-Wnj_F5pl6gE.jpg","4","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536798277126324750","世界三大超恐怖武器，新兵看完直接瘫痪在地上！","news_military","news_military","军事","俗人漫谈","https://www.toutiao.com/group/6536798277126324750/","//p1.pstatp.com/list/190x124/pgc-image/1521966926903f33289b423","/c/user/3391189702/","//p3.pstatp.com/large/4703000154b0c4eff061","1521969812","6536798277126324750","http://p1.pstatp.com/list/pgc-image/1521966926903f33289b423","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536792363862327815","传统监控器将要淘汰了，18年流行些黑科技，不怕断网无需布线","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","透过迷雾看风景","https://www.toutiao.com/group/6536792363862327815/","//p9.pstatp.com/list/pgc-image/15219652865354b66c843f3","/c/user/63001514751/","//p3.pstatp.com/large/3c6e0000480be3dadb65","1521969810","6536792363862327815","http://p9.pstatp.com/list/pgc-image/15219652865354b66c843f3","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536797224746091011","V10还有这些隐藏的好用功能！","digital","search/?keyword=%E6%95%B0%E7%A0%81","数码","互联网眼界","https://www.toutiao.com/group/6536797224746091011/","//p3.pstatp.com/list/190x124/pgc-image/1521966549645e5c0bf9fa0","/c/user/76186965914/","//p3.pstatp.com/large/5e7f0004d4e721a5571a","1521969808","6536797224746091011","http://p3.pstatp.com/list/pgc-image/1521966549645e5c0bf9fa0","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536415650833760781","逛文玩市场，哪些东西不能碰？","news_collect","search/?keyword=%E6%94%B6%E8%97%8F","收藏","酷奇潮玩","https://www.toutiao.com/group/6536415650833760781/","//p1.pstatp.com/list/temai/Fn1AXyfkrM336_LwnjwWm0iF3bSt.jpg","/c/user/5501814762/","//p3.pstatp.com/large/8121/5575184206","1521969806","6536415650833760781","http://p1.pstatp.com/list/temai/Fn1AXyfkrM336_LwnjwWm0iF3bSt.jpg","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536801204427555076","为什么有的人节俭省吃俭用没钱花，有的人花钱大手大脚总是有花不完的钱？","news_society","news_society","社会","悟空问答","https://www.toutiao.com/group/6536801204427555076/","//p9.pstatp.com/list/190x124/6c2a0003ea8fa5785bdc","None","None","1521969804","6536801204427555076","http://p9.pstatp.com/list/6c2a0003ea8fa5785bdc","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536805520026632451","有没有一首歌，写的正是你的故事？","news_entertainment","news_entertainment","娱乐","悟空问答","https://www.toutiao.com/group/6536805520026632451/","//p9.pstatp.com/list/190x124/71a3000d530f2df1132f","None","None","1521969893","6536805520026632451","http://p9.pstatp.com/list/71a3000d530f2df1132f","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535334784229442061","距今2200年！中国最古老长城在这里被当地人称“土龙”！","video_culture","video","视频","文史星空","https://www.toutiao.com/group/6535334784229442061/","//p3.pstatp.com/list/190x124/708e00127b695bd0d5bf","/c/user/6711217980/","//p1.pstatp.com/large/e59000a172e58ffba9f","1521969882","6535334784229442061","http://p3.pstatp.com/list/708e00127b695bd0d5bf","0","None","26","e2d7cf93d6e74d5eaf2726a855276cdf")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535630956005425668","难怪老婆把紧身牛仔裤全扔了，原来今年流行吸汗棉麻瑜伽裤，特美","news_fashion","news_fashion","时尚","每日搭配之道","https://www.toutiao.com/group/6535630956005425668/","//p9.pstatp.com/list/temai/ff163880a2864f9215026dfd97630250bdf762ae","/c/user/5500358214/","//p3.pstatp.com/large/8112/3580274368","1521969860","6535630956005425668","http://p9.pstatp.com/list/temai/ff163880a2864f9215026dfd97630250bdf762ae","13","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536490159595061768","机械化种蘑菇你见过吗？一年四季不间断，整个工厂就是蘑菇宝库！","video_agriculture","video","视频","海影新农村","https://www.toutiao.com/group/6536490159595061768/","//p1.pstatp.com/list/190x124/pgc-image/15218941321411633f7bf42","/c/user/3461175885/","//p3.pstatp.com/large/8624/4842220246","1521969925","6536490159595061768","http://p1.pstatp.com/list/pgc-image/15218941321411633f7bf42","1","None","89","f374ad5c19814a6ab0fbc559f4923956")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535344140517900803","70后女人要打扮嫩一点，清明节回家穿这10款开衫，显瘦又洋气","news_fashion","news_fashion","时尚","每日搭配之道","https://www.toutiao.com/group/6535344140517900803/","//p3.pstatp.com/list/temai/FgEQomdiKL7ZubtyxZ7GN3_X8SlZ.jpg","/c/user/5500358214/","//p3.pstatp.com/large/8112/3580274368","1521969913","6535344140517900803","http://p3.pstatp.com/list/temai/FgEQomdiKL7ZubtyxZ7GN3_X8SlZ.jpg","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6533867419662811661","陕西农村大姐街头卖鸡 路人调侃：炖在锅里，百米都能闻到香","news_society","news_society","社会","黑土影像","https://www.toutiao.com/group/6533867419662811661/","//p3.pstatp.com/list/pgc-image/1521283700690579b93f9fd","/c/user/3522827171/","//p6.pstatp.com/large/53ee0001e562e7804e28","1521969987","6533867419662811661","http://p3.pstatp.com/list/pgc-image/1521283700690579b93f9fd","24","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535627424460177934","春天踏青季，皮凉鞋也能踏出女人味","news_fashion","news_fashion","时尚","我是虚妄浮生的人","https://www.toutiao.com/group/6535627424460177934/","//p3.pstatp.com/list/pgc-image/1521693973883459121d83b","/c/user/53500101030/","//p3.pstatp.com/large/12330013fc747a17f03f","1521969979","6535627424460177934","http://p3.pstatp.com/list/pgc-image/1521693973883459121d83b","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536419517361291784","文玩界的“新宠”！越盘越宝贵，是文人墨客“掌上明珠”","news_collect","search/?keyword=%E6%94%B6%E8%97%8F","收藏","酷奇潮玩","https://www.toutiao.com/group/6536419517361291784/","//p3.pstatp.com/list/temai/FjdL_EEIb1m5IFrlPftajS1PtuN7.jpg","/c/user/5501814762/","//p3.pstatp.com/large/8121/5575184206","1521969963","6536419517361291784","http://p3.pstatp.com/list/temai/FjdL_EEIb1m5IFrlPftajS1PtuN7.jpg","1","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536804123432452365","黄子韬该不该再次道歉？版权意识强有错吗？","news_entertainment","news_entertainment","娱乐","悟空问答","https://www.toutiao.com/group/6536804123432452365/","//p3.pstatp.com/list/190x124/6ef50005abf8d129ef17","None","None","1521969947","6536804123432452365","http://p3.pstatp.com/list/6ef50005abf8d129ef17","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6534959993181962756","“振华三部曲”之《橘生淮南》公布海报惹争议，只因前人太经典？","news_entertainment","news_entertainment","娱乐","藤椒水煮娱","https://www.toutiao.com/group/6534959993181962756/","//p3.pstatp.com/list/pgc-image/15215370198068dce9cd84d","/c/user/85057401987/","//p10.pstatp.com/large/568b0002488116c26db6","1521969939","6534959993181962756","http://p3.pstatp.com/list/pgc-image/15215370198068dce9cd84d","10","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536808446027629064","媳妇把灯笼茄子分享到朋友圈，闺蜜说是来偷师的，其实是来蹭饭","news_food","news_food","美食","冬天的冰棒","https://www.toutiao.com/group/6536808446027629064/","//p3.pstatp.com/list/190x124/pgc-image/15219690806903610b20ee9","/c/user/5740530000/","//p3.pstatp.com/large/3c5d000300a1323211ac","1521970005","6536808446027629064","http://p3.pstatp.com/list/pgc-image/15219690806903610b20ee9","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536797362474451470","探秘中国最大的二手iphone 、iPad交易市场","video_tech","video","视频","购购乐","https://www.toutiao.com/group/6536797362474451470/","//p1.pstatp.com/list/190x124/pgc-image/1521966673065b33a5b7983","/c/user/5881037567/","//p3.pstatp.com/large/6eda0000d180c433b1e3","1521970003","6536797362474451470","http://p1.pstatp.com/list/pgc-image/1521966673065b33a5b7983","1","None","76","27293a87c5024cf691ae0e19b732ebe3")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6534645263510798856","公司老板，请记下这8条励志标语集合！句句扎心让员工超有斗志","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","放心购精选","https://www.toutiao.com/group/6534645263510798856/","//p3.pstatp.com/list/temai/Fg3pPUeTz3u7hOghOQ_B3KTY6e6Y.jpg","/c/user/6768100064/","//p1.pstatp.com/large/24990017e1760a23638b","1521970001","6534645263510798856","http://p3.pstatp.com/list/temai/Fg3pPUeTz3u7hOghOQ_B3KTY6e6Y.jpg","9","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6529287721783919108","这样的摆设才叫茶室！相见恨晚的茶道配件，简直就是“神器”~","news_home","news_home","家居","放心购精选","https://www.toutiao.com/group/6529287721783919108/","//p3.pstatp.com/list/temai/39978b45fe141939a258a7df2e6df6cda1acce0a","/c/user/6768100064/","//p1.pstatp.com/large/24990017e1760a23638b","1521969999","6529287721783919108","http://p3.pstatp.com/list/temai/39978b45fe141939a258a7df2e6df6cda1acce0a","7","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6533438694999720451","本村土豪狂砸60万开山自建房，完工后被恐吓说：就不怕山体滑坡？","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","家居装修设计助手","https://www.toutiao.com/group/6533438694999720451/","//p3.pstatp.com/list/pgc-image/15211836534219980ab10af","/c/user/5443752971/","//p1.pstatp.com/large/7621/6520841743","1521969997","6533438694999720451","http://p3.pstatp.com/list/pgc-image/15211836534219980ab10af","126","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6534855854246593027","这里号称“死亡地带”，太阳一年升落一次，半年白天，半年晚上","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","旅途生活","https://www.toutiao.com/group/6534855854246593027/","//p1.pstatp.com/list/pgc-image/152151453618850ecc36da4","/c/user/53569341657/","//p1.pstatp.com/large/2c690001be87f2a2b94f","1521969995","6534855854246593027","http://p1.pstatp.com/list/pgc-image/152151453618850ecc36da4","13","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6533929669018780174","90后穷小伙遇到“真爱”，毅然开始创业，如今爱情事业“双丰收”","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","影像杂弹","https://www.toutiao.com/group/6533929669018780174/","//p1.pstatp.com/list/pgc-image/1521296521057a0e5ab84ae","/c/user/6567612363/","//p4.pstatp.com/large/4b02000414438e374614","1521969993","6533929669018780174","http://p1.pstatp.com/list/pgc-image/1521296521057a0e5ab84ae","94","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536545719547855363","特朗普对华“三板斧”隐藏惊天大目标，反制美国，中国如何出招？","news_military","news_military","军事","第一军情","https://www.toutiao.com/group/6536545719547855363/","//p1.pstatp.com/list/190x124/pgc-image/152190789964958f02f2cac","/c/user/6264649967/","//p3.pstatp.com/large/41200033204317c2828","1521970054","6536545719547855363","http://p1.pstatp.com/list/pgc-image/152190789964958f02f2cac","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536505161089548548","来自沙漠的阿拉伯人为何会成为航海民族？","news","search/?keyword=%E5%85%B6%E5%AE%83","其它","悟空问答","https://www.toutiao.com/group/6536505161089548548/","//p3.pstatp.com/list/190x124/6ef3000974d886e04394","None","None","1521970047","6536505161089548548","http://p3.pstatp.com/list/6ef3000974d886e04394","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536786297262965262","他拒绝一将功成万骨枯，为平定安史之乱埋下火种","news_history","news_history","历史","陆弃","https://www.toutiao.com/group/6536786297262965262/","//p3.pstatp.com/list/190x124/pgc-image/152196413821648b14da23f","/c/user/1792601443/","//p3.pstatp.com/large/bc3000c827af080d46e","1521970040","6536786297262965262","http://p3.pstatp.com/list/pgc-image/152196413821648b14da23f","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6534936197519639047","男上司灌醉女下属企图欲潜规则   正当被带走时 却发生了这一幕！","video_movie","video","视频","中国善力量","https://www.toutiao.com/group/6534936197519639047/","//p3.pstatp.com/list/190x124/705000043c564f63f6df","/c/user/59916236705/","//p2.pstatp.com/large/36410001dc145e30da72","1521970033","6534936197519639047","http://p3.pstatp.com/list/705000043c564f63f6df","259","None","1021858","16659f3d9e814c469c7e9d0494e76665")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6533822690506048014","现在姑娘真会穿，清凉背心直接穿出门，还挺好看的","news_fashion","news_fashion","时尚","放心购精选","https://www.toutiao.com/group/6533822690506048014/","//p1.pstatp.com/list/71ee00000d3eb103c83d","/c/user/6768100064/","//p1.pstatp.com/large/24990017e1760a23638b","1521970026","6533822690506048014","http://p1.pstatp.com/list/71ee00000d3eb103c83d","4","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536801843383632397","这部被冠以最强新剧名号的青春剧,是否能超越Glee呢？","news_entertainment","news_entertainment","娱乐","人人影视","https://www.toutiao.com/group/6536801843383632397/","//p9.pstatp.com/list/190x124/pgc-image/1521966827217ae23c4c969","/c/user/4706767493/","//p3.pstatp.com/large/6290/8059870463","1521970019","6536801843383632397","http://p9.pstatp.com/list/pgc-image/1521966827217ae23c4c969","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536514670289748483","日本军人在鼻子下留一撮胡子，知道原因后笑掉大牙","news_history","news_history","历史","袁来你在这李","https://www.toutiao.com/group/6536514670289748483/","//p1.pstatp.com/list/190x124/pgc-image/1521900956999b41079d3f0","/c/user/6067659032/","//p3.pstatp.com/large/12340011cd665591bc72","1521970012","6536514670289748483","http://p1.pstatp.com/list/pgc-image/1521900956999b41079d3f0","6","None","0","0")
+            Exception in thread thread-3:
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/threading.py", line 914, in _bootstrap_inner
+    self.run()
+  File "toutiaoNewsOthersSpider.py", line 131, in run
+    startRequest()
+  File "toutiaoNewsOthersSpider.py", line 98, in startRequest
+    data = get_item(url)
+  File "toutiaoNewsOthersSpider.py", line 77, in get_item
+    wbdata2 = json.loads(wbdata)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Exception in thread thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/threading.py", line 914, in _bootstrap_inner
+    self.run()
+  File "toutiaoNewsOthersSpider.py", line 131, in run
+    startRequest()
+  File "toutiaoNewsOthersSpider.py", line 98, in startRequest
+    data = get_item(url)
+  File "toutiaoNewsOthersSpider.py", line 77, in get_item
+    wbdata2 = json.loads(wbdata)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Exception in thread thread-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/threading.py", line 914, in _bootstrap_inner
+    self.run()
+  File "toutiaoNewsOthersSpider.py", line 131, in run
+    startRequest()
+  File "toutiaoNewsOthersSpider.py", line 98, in startRequest
+    data = get_item(url)
+  File "toutiaoNewsOthersSpider.py", line 77, in get_item
+    wbdata2 = json.loads(wbdata)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Exception in thread thread-0:
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/threading.py", line 914, in _bootstrap_inner
+    self.run()
+  File "toutiaoNewsOthersSpider.py", line 131, in run
+    startRequest()
+  File "toutiaoNewsOthersSpider.py", line 98, in startRequest
+    data = get_item(url)
+  File "toutiaoNewsOthersSpider.py", line 77, in get_item
+    wbdata2 = json.loads(wbdata)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536792169565389070","如果2007年乔布斯没有推出iPhone，现在手机市场会是怎样的？","news_tech","news_tech","科技","悟空问答","https://www.toutiao.com/group/6536792169565389070/","//p1.pstatp.com/list/190x124/71a20019dc64a0724e2d","None","None","1521970091","6536792169565389070","http://p1.pstatp.com/list/71a20019dc64a0724e2d","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536786950697779716","拜耳梨花大集 专治各种不省心","news_agriculture","search/?keyword=%E4%B8%89%E5%86%9C","三农","191农资人","https://www.toutiao.com/group/6536786950697779716/","//i0.pstatp.com/list/2454000f1b99c908728d","/c/user/5858190970/","//p4.pstatp.com/large/5e87000531b40ef768f8","1521970086","6536786950697779716","http://i0.pstatp.com/list/2454000f1b99c908728d","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536791676973744654","超炫！美国一公司推出共享电单车，中国为什么很难见到？","news_tech","news_tech","科技","顶脉圈视界","https://www.toutiao.com/group/6536791676973744654/","//p1.pstatp.com/list/190x124/pgc-image/1521965393557627982e412","/c/user/6811749806/","//p1.pstatp.com/large/d2a0015c70e1e9a2d35","1521970081","6536791676973744654","http://p1.pstatp.com/list/pgc-image/1521965393557627982e412","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6536414878343627271","别再穿过时的运动鞋了，18年刚上市男士休闲鞋，帅的无与伦比","news_fashion","news_fashion","时尚","潮男指南","https://www.toutiao.com/group/6536414878343627271/","//p3.pstatp.com/list/temai/FlV0ypcrclu7TzTMA9cNhT1S-OE6.jpg","/c/user/5501832587/","//p2.pstatp.com/large/8602/5710290530","1521970076","6536414878343627271","http://p3.pstatp.com/list/temai/FlV0ypcrclu7TzTMA9cNhT1S-OE6.jpg","0","None","0","0")
+            
+execute result is 1
+real sql is 
+            insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
+            media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
+            VALUES ("6535379463989887491","2018年户籍制度有3点变化，分户有3大好处，这2类人可将户口迁回","news_agriculture","search/?keyword=%E4%B8%89%E5%86%9C","三农","农说农乐","https://www.toutiao.com/group/6535379463989887491/","//p3.pstatp.com/list/190x124/pgc-image/1521637587310fee68ad19b","/c/user/4365058973/","//p2.pstatp.com/large/568600063ab56d12b80e","1521970071","6535379463989887491","http://p3.pstatp.com/list/pgc-image/1521637587310fee68ad19b","8","None","0","0")
+            
+execute result is 1
+主线程退出

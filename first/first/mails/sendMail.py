@@ -15,10 +15,10 @@ def sendNotifiedMessage(msg, subject):
     message["To"] = receivers[0]
     message["Subject"] = Header(subject, "utf8")
     try:
-        smtpObj = smtplib.SMTP()
-        smtpObj.connect(mail_host, 25)
-        smtpObj.login(mail_user, mail_passwd)
-        smtpObj.sendmail(sender, receivers, message.as_string())
-        print("邮件发送成功")
+    	smtpObj = smtplib.SMTP()
+    	smtpObj.connect(mail_host, 25)
+    	smtpObj.login(mail_user, mail_passwd)
+    	smtpObj.sendmail(sender, receivers, message.as_string())
+    	print("邮件发送成功")
     except smtplib.SMTPException as e:
         print(e)
