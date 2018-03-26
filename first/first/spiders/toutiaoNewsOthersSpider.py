@@ -76,16 +76,16 @@ def get_item(url):
         wbdata = requests.get(url, headers=aHeader).text
         wbdata2 = json.loads(wbdata)
         if not "message" in wbdata2.keys() or wbdata2["message"] != "success":
-        # print("request not success")
-        # print(wbdata2)
+           #print("request not success")
+           #print(wbdata2)
            global sleepTimeSecond
            time.sleep(sleepTimeSecond)
        	   return
         data = wbdata2.get("data")
+        return data
     except Exception as e:
         print(e)
     # printDataResult(data)
-    return data
 
 
 def processData(data):
