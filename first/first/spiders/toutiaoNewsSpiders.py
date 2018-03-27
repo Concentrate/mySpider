@@ -15,6 +15,7 @@ sys.path.append(localModuleDir)
 import requests
 
 from first.first.utils import DataBaseUtil
+from first.first.mails import sendMail
 
 aHeader = {
     "cookie": '''
@@ -192,3 +193,5 @@ if __name__ == "__main__":
     for t2 in mThreadArray:
         t2.join()
     print("主线程退出")
+    localtime = time.asctime( time.localtime(time.time()))
+    sendMail.sendNotifiedMessage("云服务器新闻爬虫进程结束 {0}".format(localtime),"爬虫相关")

@@ -3,8 +3,8 @@ import time
 import sys
 import os
 
-curDir = os.getcwd()
-sys.path.append(curDir[:curDir.index('/first')])
+moDir="/home/ubuntu/spider/mySpider"
+sys.path.append(moDir)
 from first.first.mails.sendMail import sendNotifiedMessage
 
 notiGap = 1 * 60 * 60;
