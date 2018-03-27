@@ -8,7 +8,8 @@ import sys
 import os
 import threading
 moduleDir="/home/ubuntu/spider/mySpider"
-sys.path.append(moduleDir)
+localModuleDir="/Users/liudeyu/IdeaProjects/spiderPratise"
+sys.path.append(localModuleDir)
 import requests
 
 from first.first.utils import DataBaseUtil

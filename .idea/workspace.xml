@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f022792-9fcc-4ded-8e14-e91e613edbf6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/first/first/spiders/toutiaonews.sql" afterPath="$PROJECT_DIR$/first/first/spiders/toutiaonews.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/first/first/utils/DataBaseUtil.py" afterPath="$PROJECT_DIR$/first/first/utils/DataBaseUtil.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/first/first/utils/extraToutiaoVideoPlaySource.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/first/test/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/first/test/test_get_news_effectient.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/first/first/spiders/toutiaoNewsOthersSpider.py" afterPath="$PROJECT_DIR$/first/first/spiders/toutiaoNewsOthersSpider.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,9 +18,11 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/spiderPratise$spiderStart.coverage" NAME="spiderStart Coverage Results" MODIFIED="1521447915332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/spiderPratise$extraToutiaoVideoPlaySource.coverage" NAME="extraToutiaoVideoPlaySource Coverage Results" MODIFIED="1522154078022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first/first/utils" />
     <SUITE FILE_PATH="coverage/spiderPratise$spiderToutiaoNews.coverage" NAME="spiderToutiaoNews Coverage Results" MODIFIED="1521861502469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first/first/spiders" />
+    <SUITE FILE_PATH="coverage/spiderPratise$test_get_news_effectient.coverage" NAME="test_get_news_effectient Coverage Results" MODIFIED="1522121902309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first/test" />
     <SUITE FILE_PATH="coverage/spiderPratise$sendMail.coverage" NAME="sendMail Coverage Results" MODIFIED="1521451873441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first/first/test" />
-    <SUITE FILE_PATH="coverage/spiderPratise$toutiaoNewsOthersSpider.coverage" NAME="toutiaoNewsOthersSpider Coverage Results" MODIFIED="1521883624380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first/first/spiders" />
+    <SUITE FILE_PATH="coverage/spiderPratise$toutiaoNewsOthersSpider.coverage" NAME="toutiaoNewsOthersSpider Coverage Results" MODIFIED="1522120620850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first/first/spiders" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -31,28 +36,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="start.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first/first/start.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sendMail.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first/first/test/sendMail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="doubanMovieSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first/first/spiders/doubanMovieSpider.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,20 +49,52 @@
       <file leaf-file-name="doubanBestMovieSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first/first/spiders/doubanBestMovieSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
+            <state relative-caret-position="135">
               <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toutiaoNewsOthersSpider.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="toutiaoNewsOthersSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first/first/spiders/toutiaoNewsOthersSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+            <state relative-caret-position="262">
+              <caret line="18" column="368" lean-forward="false" selection-start-line="18" selection-start-column="340" selection-end-line="18" selection-end-column="368" />
               <folding>
                 <element signature="e#23#37#0" expanded="true" />
+                <element signature="e#1595#2060#0" expanded="false" />
+                <element signature="e#2104#2424#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_get_news_effectient.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first/test/test_get_news_effectient.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extraToutiaoVideoPlaySource.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/first/first/utils/extraToutiaoVideoPlaySource.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+              <folding>
+                <element signature="e#28#42#0" expanded="true" />
+                <marker date="1522153908000" expanded="true" signature="307:552" ph="create table... if" />
+                <marker date="1522153908000" expanded="true" signature="838:895" ph="select video... toutiao_news_video_source" />
+                <marker date="1522153908000" expanded="true" signature="838:899" ph="select video... toutiao_news_video_source" />
+                <marker date="1522153908000" expanded="true" signature="838:900" ph="select video... toutiao_video_source" />
+                <marker date="1522153908000" expanded="true" signature="964:1103" ph="insert into toutiao_video_source... " />
+                <marker date="1522153908000" expanded="true" signature="2674:2772" ph="select video... toutiao_news" />
               </folding>
             </state>
           </provider>
@@ -88,7 +103,7 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.6/site-packages/requests/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-573">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -98,23 +113,13 @@
       <file leaf-file-name="DataBaseUtil.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first/first/utils/DataBaseUtil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+            <state relative-caret-position="164">
+              <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
               <folding>
-                <marker date="1521883624000" expanded="true" signature="2555:2909" ph="insert into toutiao_news... " />
-                <marker date="1521883624000" expanded="true" signature="2974:3032" ph="insert into toutiao_imageurls... " />
-                <marker date="1521883624000" expanded="true" signature="3090:3145" ph="insert into toutiao_news_labels... " />
+                <marker date="1521965877000" expanded="true" signature="2556:2910" ph="insert into toutiao_news... " />
+                <marker date="1521965877000" expanded="true" signature="2975:3033" ph="insert into toutiao_imageurls... " />
+                <marker date="1521965877000" expanded="true" signature="3091:3146" ph="insert into toutiao_news_labels... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toutiaonews.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first/first/spiders/toutiaonews.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="8" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -200,9 +205,11 @@
         <option value="$PROJECT_DIR$/first/first/package.json" />
         <option value="$PROJECT_DIR$/first/first/test/sendMail.py" />
         <option value="$PROJECT_DIR$/first/first/spiders/spiderToutiaoNews.py" />
-        <option value="$PROJECT_DIR$/first/first/spiders/toutiaoNewsOthersSpider.py" />
         <option value="$PROJECT_DIR$/first/first/spiders/toutiaonews.sql" />
         <option value="$PROJECT_DIR$/first/first/utils/DataBaseUtil.py" />
+        <option value="$PROJECT_DIR$/first/first/spiders/toutiaoNewsOthersSpider.py" />
+        <option value="$PROJECT_DIR$/first/test/test_get_news_effectient.py" />
+        <option value="$PROJECT_DIR$/first/first/utils/extraToutiaoVideoPlaySource.py" />
       </list>
     </option>
   </component>
@@ -215,7 +222,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="817" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -235,8 +242,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,6 +266,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="first" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiderPratise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiderPratise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,35 +345,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spiderPratise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spiderPratise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="first" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="first" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="spiders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,7 +382,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.toutiaoNewsOthersSpider">
+  <component name="RunManager" selected="Python.extraToutiaoVideoPlaySource">
     <configuration default="false" name="sendMail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -432,6 +435,44 @@
       <module name="spiderPratise" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first/first/spiders/toutiaoNewsOthersSpider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_get_news_effectient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spiderPratise" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first/test/test_get_news_effectient.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="extraToutiaoVideoPlaySource" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first/first/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spiderPratise" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first/first/utils/extraToutiaoVideoPlaySource.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -975,17 +1016,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.spiderStart" />
       <item index="1" class="java.lang.String" itemvalue="Python.sendMail" />
       <item index="2" class="java.lang.String" itemvalue="Python.spiderToutiaoNews" />
       <item index="3" class="java.lang.String" itemvalue="Python.toutiaoNewsOthersSpider" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_get_news_effectient" />
+      <item index="5" class="java.lang.String" itemvalue="Python.extraToutiaoVideoPlaySource" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.toutiaoNewsOthersSpider" />
-        <item index="1" class="java.lang.String" itemvalue="Python.spiderToutiaoNews" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sendMail" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.extraToutiaoVideoPlaySource" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_get_news_effectient" />
+        <item index="2" class="java.lang.String" itemvalue="Python.toutiaoNewsOthersSpider" />
+        <item index="3" class="java.lang.String" itemvalue="Python.spiderToutiaoNews" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sendMail" />
       </list>
     </recent_temporary>
   </component>
@@ -1004,14 +1049,15 @@
       <updated>1521258357540</updated>
       <workItem from="1521258361026" duration="51305000" />
       <workItem from="1521871815290" duration="11753000" />
+      <workItem from="1522120558391" duration="8650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63058000" />
+    <option name="totallyTimeSpent" value="71708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="817" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1022,19 +1068,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22941971" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30481285" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26074895" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18181819" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1816921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24598931" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24549237" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1060,7 +1106,7 @@
           <line>98</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1069,22 +1115,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/first/first/test/sendMail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first/first/spiders/doubanMovieSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="84" lean-forward="false" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first/first/spiders/doubanBestMovieSpider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1093,14 +1123,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first/first/spiders/spiderToutiaoNews.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/first/first/spiders/spiderToutiaoNews.py" />
     <entry file="file:///usr/local/lib/python3.6/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8595">
@@ -1125,6 +1148,8 @@
           <caret line="110" column="18" lean-forward="false" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
           <folding>
             <element signature="e#23#37#0" expanded="true" />
+            <element signature="e#1595#2060#0" expanded="false" />
+            <element signature="e#2104#2424#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1140,7 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,18 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding>
-            <marker date="1521278167000" expanded="true" signature="465:3706" ph="..." />
-            <marker date="1521278167000" expanded="true" signature="3077:3179" ph="..." />
-            <marker date="1521278167000" expanded="true" signature="3237:3308" ph="..." />
-            <marker date="1521278167000" expanded="true" signature="3365:3417" ph="..." />
-            <marker date="1521278167000" expanded="true" signature="3467:3579" ph="..." />
-            <marker date="1521278167000" expanded="true" signature="3603:3682" ph="..." />
-            <marker date="1521278167000" expanded="true" signature="3798:3939" ph="..." />
-            <marker date="1521278167000" expanded="true" signature="3831:3862" ph="..." />
-            <marker date="1521278167000" expanded="true" signature="3896:3939" ph="..." />
-            <marker date="1521278167000" expanded="true" signature="3970:4137" ph="'...'" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,7 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,9 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
           <caret line="237" column="6" lean-forward="false" selection-start-line="237" selection-start-column="6" selection-end-line="237" selection-end-column="6" />
-          <folding>
-            <element signature="e#71#87#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,46 +1203,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first/images/full/1b066d715febdb412dd666e89454d8c09c9d040e.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first/images/full/1cee60d19360ba5128445631115ce7648a680fd7.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first/images/full/1ce39928c4b12ebb0b11e7af0395255e6e7be9a2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first/images/full/1a3b7126c4558387899c7248e4aab15a0448b4c9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first/images/full/0b1e8205522bb3b1dffe20fb0d41c46611001c44.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first/images/full/0becdd7cec9fbd92a4ec326d52110fb17e2444a4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first/images/full/0acd06fe0aa2f2b6c8c8d53757aece21b4df2b96.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first/images/full/0a83b387fc8fd63943e61b02118e905078069ec5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/first/images/full/1b066d715febdb412dd666e89454d8c09c9d040e.jpg" />
+    <entry file="file://$PROJECT_DIR$/first/images/full/1cee60d19360ba5128445631115ce7648a680fd7.jpg" />
+    <entry file="file://$PROJECT_DIR$/first/images/full/1ce39928c4b12ebb0b11e7af0395255e6e7be9a2.jpg" />
+    <entry file="file://$PROJECT_DIR$/first/images/full/1a3b7126c4558387899c7248e4aab15a0448b4c9.jpg" />
+    <entry file="file://$PROJECT_DIR$/first/images/full/0b1e8205522bb3b1dffe20fb0d41c46611001c44.jpg" />
+    <entry file="file://$PROJECT_DIR$/first/images/full/0becdd7cec9fbd92a4ec326d52110fb17e2444a4.jpg" />
+    <entry file="file://$PROJECT_DIR$/first/images/full/0acd06fe0aa2f2b6c8c8d53757aece21b4df2b96.jpg" />
+    <entry file="file://$PROJECT_DIR$/first/images/full/0a83b387fc8fd63943e61b02118e905078069ec5.jpg" />
     <entry file="file://$PROJECT_DIR$/first/first/res.json" />
     <entry file="file://$PROJECT_DIR$/first/first/resultjson.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1297,7 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,19 +1331,12 @@
         <state relative-caret-position="120">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first/first/test/sendMail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/first/first/test/sendMail.py" />
     <entry file="file://$PROJECT_DIR$/first/first/spiders/doubanMovieSpider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1379,7 +1347,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/first/first/spiders/doubanBestMovieSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="135">
           <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding />
         </state>
@@ -1397,18 +1365,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first/first/spiders/spiderToutiaoNews.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/first/first/spiders/spiderToutiaoNews.py" />
     <entry file="file://$PROJECT_DIR$/first/first/utils/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1417,48 +1377,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first/first/toutiaonews.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/first/first/toutiaonews.sql" />
     <entry file="file:///usr/local/lib/python3.6/site-packages/requests/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-573">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first/first/utils/DataBaseUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-          <folding>
-            <marker date="1521883624000" expanded="true" signature="2555:2909" ph="insert into toutiao_news... " />
-            <marker date="1521883624000" expanded="true" signature="2974:3032" ph="insert into toutiao_imageurls... " />
-            <marker date="1521883624000" expanded="true" signature="3090:3145" ph="insert into toutiao_news_labels... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first/first/spiders/toutiaonews.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/first/first/spiders/toutiaoNewsOthersSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+        <state relative-caret-position="262">
+          <caret line="18" column="368" lean-forward="false" selection-start-line="18" selection-start-column="340" selection-end-line="18" selection-end-column="368" />
           <folding>
             <element signature="e#23#37#0" expanded="true" />
+            <element signature="e#1595#2060#0" expanded="false" />
+            <element signature="e#2104#2424#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first/test/test_get_news_effectient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first/first/spiders/toutiaonews.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first/first/utils/DataBaseUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+          <folding>
+            <marker date="1521965877000" expanded="true" signature="2556:2910" ph="insert into toutiao_news... " />
+            <marker date="1521965877000" expanded="true" signature="2975:3033" ph="insert into toutiao_imageurls... " />
+            <marker date="1521965877000" expanded="true" signature="3091:3146" ph="insert into toutiao_news_labels... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first/first/utils/extraToutiaoVideoPlaySource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+          <folding>
+            <element signature="e#28#42#0" expanded="true" />
+            <marker date="1522153908000" expanded="true" signature="307:552" ph="create table... if" />
+            <marker date="1522153908000" expanded="true" signature="838:895" ph="select video... toutiao_news_video_source" />
+            <marker date="1522153908000" expanded="true" signature="838:899" ph="select video... toutiao_news_video_source" />
+            <marker date="1522153908000" expanded="true" signature="838:900" ph="select video... toutiao_video_source" />
+            <marker date="1522153908000" expanded="true" signature="964:1103" ph="insert into toutiao_video_source... " />
+            <marker date="1522153908000" expanded="true" signature="2674:2772" ph="select video... toutiao_news" />
           </folding>
         </state>
       </provider>
