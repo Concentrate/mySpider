@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
-import atexit
 import _thread
+import os
 import hashlib
 import json
 import math
@@ -9,6 +9,7 @@ import sys
 import os
 import threading
 import random
+import pickle
 
 moduleDir = "/home/ubuntu/spider/mySpider"
 localModuleDir = "/Users/liudeyu/IdeaProjects/spiderPratise"
@@ -22,6 +23,7 @@ from first.first.mails import sendMail
 totalNum = 0;
 sleepTimeSecond = 0;
 threadLock = threading.Lock()
+ttwebid_array=set()
 
 
 def getASCP():
@@ -55,7 +57,7 @@ def get_url(max_behot_time, AS, CP):
           '&max_behot_time_tmp={0}' \
           '&tadrequire=true' \
           '&as={1}' \
-          '&cp={2}&&_signature=T.8SGgAAFUyX-koALQErNk..Eg'.format(max_behot_time, AS, CP)
+          '&cp={2}'.format(max_behot_time, AS, CP)
     return url
 
 
@@ -100,21 +102,40 @@ def getRequestJsonEffectient():
     tt_webids = [6441115964263679502, 6444852342776890893, 6469594619403077134, 6531538553481676296, 62996830351]
     ip_proxies = ["110.73.55.118:8123", "58.19.81.54:18118", "123.180.69.170:8010", "101.37.79.125:3128",
                   "180.168.184.179:53128", "120.78.182.79:3128", "182.140.196.161:808", "114.215.95.188:3128",
-                  "106.14.146.58:3128"]
+                  "106.14.146.58:3128","219.135.164.245:3128","124.193.37.5:8888","118.212.137.135:31288",
+                  "122.72.18.35:80","120.77.254.116:3128"]
     aHeader = {
         # 6441115964263679502,6444852342776890893,6469594619403077134,6531538553481676296,62996830351
     }
+    global ttwebid_array
     requests.adapters.DEFAULT_RETRIES=3;
+    s = requests.session()
+    s.keep_alive = False
     proxies = {}
     a1, a2 = getASCP()
-    # aHeader["user-agent"] = random.choice(user_agent_list).strip()
     aHeader["user-agent"] = user_agent_list[0].strip()
-    aHeader["cookie"] = "tt_webid={0}".format(random.choice(tt_webids)).strip()
-    if random.random() < 0.5:
-        proxies = {"https:": "https://" + random.choice(ip_proxies)}
+    ttwebid_str='''
+uuid="w:5ffa14ae296f40f08229d3919c9a9730"; csrftoken=507bfea64d9314c23137a01b80e088fb; __utma=24953151.568239780.1499689176.1504956717.1504956717.1; _ba=BA0.2-20170715-51d9e-buvNklGp4n4PJ9h4DmPW; tt_webid={0}; WEATHER_CITY=%E5%8C%97%E4%BA%AC; _ga=GA1.2.568239780.1499689176; tt_webid={0}; UM_distinctid=160e54f3a82908-01c19ffad22fe2-32607402-13c680-160e54f3a839e8; odin_tt=e0c14af03526d18eb4fb451ef78f230f3b0c1fa374fb29ff92160302bb0783ea9540c0ffe87e43405b1ce929c81dfc24; utm_source=toutiao; tt_track_id=fda9fa9c847a29067d8638880d04cbba; login_flag=2f9f867b92bd3f46cc671bed03561c83; sessionid=2e37a104242cb6694be0a8e0fd3e1583; sid_tt=2e37a104242cb6694be0a8e0fd3e1583; uid_tt=61d884213e3e3fbc6255fdf91feaa727; sid_guard="2e37a104242cb6694be0a8e0fd3e1583|1522326884|15552000|Tue\054 25-Sep-2018 12:34:44 GMT"; sso_login_status=0; CNZZDATA1259612802=1561649699-1499685480-%7C1522986084; __tasessionId=0uicppx0z1522989236447
+    '''
+    thread_name=threading.current_thread().getName()
+    index=thread_name[thread_name.find("-")+1:]
+    index=int(index)
+    if False and  len(ttwebid_array)!=0:
+        aHeader["cookie"] = "tt_webid={0}".format(list(ttwebid_array)[index]).strip()
+    else:
+        if index<len(tt_webids):
+           aHeader["cookie"] = "tt_webid={0}".format(tt_webids[index]).strip()
+        else:
+           aHeader["cookie"] = "tt_webid={0}".format(list(ttwebid_array)[-index]).strip()
+    if random.random() < 1.8 and index<len(ip_proxies):
+        proxies = {"https:": "https://" + ip_proxies[index]}
     try:
+        #print(aHeader)
         response = requests.get(get_url(0, a1, a2), headers=aHeader,proxies=proxies)
-     #print(str(response.cookies) + "  :" + str(response.url))
+        #print(str(response.cookies) + "  :" + str(response.url))
+        if response.cookies and response.cookies.get("tt_webid"):
+            pass
+            #ttwebid_array.add(response.cookies.get("tt_webid"))
         return response.json()
     except requests.exceptions.ConnectionError as e:
         print(e)
@@ -126,7 +147,7 @@ def get_item(url):
     try:
         wbdata2 = getRequestJsonEffectient()
         if wbdata2 and wbdata2.get("message")!="success":
-            # print("request not success")
+            #print("request not success")
             # print(wbdata2)
             global sleepTimeSecond
             time.sleep(sleepTimeSecond)
@@ -188,8 +209,14 @@ def atExit():
 
 
 if __name__ == "__main__":
-    threadCount = 15
+    threadCount = 4
     mThreadArray = []
+    filePath="/home/ubuntu/spider/mySpider/first/first/utils/webids_file"
+    if os.path.exists(filePath):
+        f1=open(filePath,"rb")
+        ttwebid_array=pickle.load(f1)
+        f1.close()
+        print("初始化 ttwebids array and length is {0}".format(len(ttwebid_array)))
     for i in range(threadCount):
         t1 = MyThread("thread-{0}".format(i))
         t1.start()
