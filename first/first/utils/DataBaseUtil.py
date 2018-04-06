@@ -75,13 +75,12 @@ import pymysql
 
 con = pymysql.connect(host="localhost", user="ldy", password="abcd1234",
                       database="spider", charset="utf8")
-cursor = con.cursor()
-
 
 
 def storeToutiaoNewsInDataBase(data):
     for tmp in data:
         try:
+            cursor = con.cursor()
             ex_sql1 = '''
             insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
             media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
@@ -115,4 +114,6 @@ def storeToutiaoNewsInDataBase(data):
             con.commit()
         except Exception as e:
             print(e)
-            con.rollback()
+        finally:
+            cursor.close()
+

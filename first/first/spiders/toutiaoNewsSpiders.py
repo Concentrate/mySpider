@@ -24,7 +24,42 @@ totalNum = 0;
 sleepTimeSecond = 0;
 threadLock = threading.Lock()
 ttwebid_array=set()
+topic="__all__"
 
+user_agents_strs = '''
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    '''
+user_agent_list = user_agents_strs.strip().split("\n")
+tt_webids = [6441115964263679502, 6444852342776890893, 6469594619403077134, 6531538553481676296, 62996830351]
+ip_proxies = ["110.73.55.118:8123", "58.19.81.54:18118", "123.180.69.170:8010", "101.37.79.125:3128",
+                  "180.168.184.179:53128", "120.78.182.79:3128", "182.140.196.161:808", "114.215.95.188:3128",
+                  "106.14.146.58:3128","219.135.164.245:3128","124.193.37.5:8888","118.212.137.135:31288",
+                  "122.72.18.35:80","120.77.254.116:3128"]
+aHeader = {
+        # 6441115964263679502,6444852342776890893,6469594619403077134,6531538553481676296,62996830351
+    }
+
+
+    #     110.73.55.118	8123	广西南宁	高匿	HTTPS	38天	2分钟前
+    # Cn	58.19.81.54	18118	湖北武汉	高匿	HTTPS	1分钟	3分钟前
+    # Cn	123.180.69.170	8010	河北邢台	高匿	HTTPS	1分钟	3分钟前
+    # 101.37.79.125	3128		透明	HTTPS	230天	4分钟前
+    # Cn	180.168.184.179	53128	上海	透明	HTTPS	58分钟	4分钟前
+    # 120.78.182.79	3128	长城宽带	透明	HTTPS	4天	4分钟前
+    # Cn	182.140.196.161	808	四川	高匿	HTTPS	3小时	4分钟前
+    # Cn	114.215.95.188	3128	北京	透明	HTTPS	27天	4分钟前
+    # 139.224.80.139	3128		透明	HTTPS	85天	4分钟前
+    # Cn	122.72.18.34	80	甘肃	透明	HTTPS	194天	4分钟前
+    # Cn	119.28.152.208	80	北京	透明	HTTPS	52天	4分钟前
+    # Cn	114.215.47.93	3128	北京	透明	HTTPS	4小时	4分钟前
+    # 106.14.146.58	3128		透明	HTTPS	6天	4分钟前
+    # Cn	219.135.164.245	3128	广东广州市海珠区	透明	HTTPS	210天	4分钟前
+    # Cn	119.28.138.104	3128	北京	高匿	HTTPS	11天	4分钟前
+    # Cn	211.159.177.212	3128	北京	透明	HTTPS	66天	4分钟前
+    # Cn	124.193.37.5	8888	北京	透明	HTTPS	7天	4分钟前
+    # Cn	118.212.137.135	31288	江西	透明	HTTPS	50天	4分钟前
+    # Cn	122.72.18.35	80	甘肃	透明	HTTPS	191天	4分钟前
+    # 120.77.254.116	3128	长城宽带	透明	HTTPS	46天	4分钟前
 
 def getASCP():
     t = int(math.floor(time.time()))
@@ -52,12 +87,12 @@ def getASCP():
 
 
 def get_url(max_behot_time, AS, CP):
-    url = 'https://www.toutiao.com/api/pc/feed/?category=__all__&utm_source=toutiao&widen=1' \
+    url = 'https://www.toutiao.com/api/pc/feed/?category={3}&utm_source=toutiao&widen=1' \
           '&max_behot_time={0}' \
           '&max_behot_time_tmp={0}' \
           '&tadrequire=true' \
           '&as={1}' \
-          '&cp={2}'.format(max_behot_time, AS, CP)
+          '&cp={2}'.format(max_behot_time, AS, CP,topic)
     return url
 
 
@@ -73,41 +108,7 @@ def printDataResult(data):
 
 
 def getRequestJsonEffectient():
-    user_agents_strs = '''
-    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    '''
-
-    #     110.73.55.118	8123	广西南宁	高匿	HTTPS	38天	2分钟前
-    # Cn	58.19.81.54	18118	湖北武汉	高匿	HTTPS	1分钟	3分钟前
-    # Cn	123.180.69.170	8010	河北邢台	高匿	HTTPS	1分钟	3分钟前
-    # 101.37.79.125	3128		透明	HTTPS	230天	4分钟前
-    # Cn	180.168.184.179	53128	上海	透明	HTTPS	58分钟	4分钟前
-    # 120.78.182.79	3128	长城宽带	透明	HTTPS	4天	4分钟前
-    # Cn	182.140.196.161	808	四川	高匿	HTTPS	3小时	4分钟前
-    # Cn	114.215.95.188	3128	北京	透明	HTTPS	27天	4分钟前
-    # 139.224.80.139	3128		透明	HTTPS	85天	4分钟前
-    # Cn	122.72.18.34	80	甘肃	透明	HTTPS	194天	4分钟前
-    # Cn	119.28.152.208	80	北京	透明	HTTPS	52天	4分钟前
-    # Cn	114.215.47.93	3128	北京	透明	HTTPS	4小时	4分钟前
-    # 106.14.146.58	3128		透明	HTTPS	6天	4分钟前
-    # Cn	219.135.164.245	3128	广东广州市海珠区	透明	HTTPS	210天	4分钟前
-    # Cn	119.28.138.104	3128	北京	高匿	HTTPS	11天	4分钟前
-    # Cn	211.159.177.212	3128	北京	透明	HTTPS	66天	4分钟前
-    # Cn	124.193.37.5	8888	北京	透明	HTTPS	7天	4分钟前
-    # Cn	118.212.137.135	31288	江西	透明	HTTPS	50天	4分钟前
-    # Cn	122.72.18.35	80	甘肃	透明	HTTPS	191天	4分钟前
-    # 120.77.254.116	3128	长城宽带	透明	HTTPS	46天	4分钟前
-
-    user_agent_list = user_agents_strs.strip().split("\n")
-    tt_webids = [6441115964263679502, 6444852342776890893, 6469594619403077134, 6531538553481676296, 62996830351]
-    ip_proxies = ["110.73.55.118:8123", "58.19.81.54:18118", "123.180.69.170:8010", "101.37.79.125:3128",
-                  "180.168.184.179:53128", "120.78.182.79:3128", "182.140.196.161:808", "114.215.95.188:3128",
-                  "106.14.146.58:3128","219.135.164.245:3128","124.193.37.5:8888","118.212.137.135:31288",
-                  "122.72.18.35:80","120.77.254.116:3128"]
-    aHeader = {
-        # 6441115964263679502,6444852342776890893,6469594619403077134,6531538553481676296,62996830351
-    }
-    global ttwebid_array
+    global ttwebid_array,aHeader,ttwebid_array,user_agent_list,ip_proxies
     requests.adapters.DEFAULT_RETRIES=3;
     s = requests.session()
     s.keep_alive = False
@@ -121,16 +122,13 @@ uuid="w:5ffa14ae296f40f08229d3919c9a9730"; csrftoken=507bfea64d9314c23137a01b80e
     index=thread_name[thread_name.find("-")+1:]
     index=int(index)
     if False and  len(ttwebid_array)!=0:
-        aHeader["cookie"] = "tt_webid={0}".format(list(ttwebid_array)[index]).strip()
+        aHeader["cookie"] = "tt_webid={0}".format(random.choice(list(ttwebid_array))).strip()
     else:
         if index<len(tt_webids):
            aHeader["cookie"] = "tt_webid={0}".format(tt_webids[index]).strip()
-        else:
-           aHeader["cookie"] = "tt_webid={0}".format(list(ttwebid_array)[-index]).strip()
     if random.random() < 1.8 and index<len(ip_proxies):
         proxies = {"https:": "https://" + ip_proxies[index]}
     try:
-        #print(aHeader)
         response = requests.get(get_url(0, a1, a2), headers=aHeader,proxies=proxies)
         #print(str(response.cookies) + "  :" + str(response.url))
         if response.cookies and response.cookies.get("tt_webid"):
@@ -179,22 +177,6 @@ def startRequest():
                 threadLock.release()
 
 
-def test_request(threadName, delay):
-    AS, CP = getASCP()
-    for i in range(10):
-        text = requests.get(get_url(0, AS, CP), headers=aHeader).text
-        print("thread name is {0} and the response is {1}".format(threadName, text))
-        time.sleep(delay)
-
-
-def testpalleryRequest():
-    threadCount = 100
-    for i in range(threadCount):
-        _thread.start_new_thread(test_request, ("thread {0}".format(i), 1,))
-    while True:
-        time.sleep(5)
-
-
 class MyThread(threading.Thread):
     def __init__(self, name):
         threading.Thread.__init__(self)
@@ -207,16 +189,21 @@ def atExit():
     localtime = time.asctime( time.localtime(time.time()))
     sendMail.sendNotifiedMessage("云服务器新闻爬虫进程结束 {0}".format(localtime),"爬虫相关")
 
-
-if __name__ == "__main__":
-    threadCount = 4
-    mThreadArray = []
+def initwebidsfile():
+    global ttwebid_array
     filePath="/home/ubuntu/spider/mySpider/first/first/utils/webids_file"
     if os.path.exists(filePath):
         f1=open(filePath,"rb")
         ttwebid_array=pickle.load(f1)
         f1.close()
         print("初始化 ttwebids array and length is {0}".format(len(ttwebid_array)))
+
+if __name__ == "__main__":
+    if len(sys.argv)>=2:
+        topic=sys.argv[1]
+        print("topic 设置为 "+topic)
+    threadCount = 4
+    mThreadArray = []
     for i in range(threadCount):
         t1 = MyThread("thread-{0}".format(i))
         t1.start()
