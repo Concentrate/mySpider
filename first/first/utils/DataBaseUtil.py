@@ -77,10 +77,11 @@ con = pymysql.connect(host="localhost", user="ldy", password="abcd1234",
                       database="spider", charset="utf8")
 
 
+cursor = con.cursor()
 def storeToutiaoNewsInDataBase(data):
+    global cursor
     for tmp in data:
         try:
-            cursor = con.cursor()
             ex_sql1 = '''
             insert into toutiao_news(item_id,title,tag,tag_url,chinese_tag,source,source_url,image_url,media_url,
             media_avatar_url,behot_time,group_id,middle_image,comments_count,video_duration_str,video_play_count,video_id)
@@ -100,7 +101,7 @@ def storeToutiaoNewsInDataBase(data):
                 tmp.get("behot_time", 0), tmp.get("group_id", 0), tmp.get("middle_image"), tmp.get("comments_count", 0),
                 tmp.get("video_duration"),
                 tmp.get("video_play_count", 0), tmp.get("video_id", 0))
-            print("real sql is {0}".format(real_sql))
+            #print("real sql is {0}".format(real_sql))
             images_list = tmp.get("image_list")
             result = cursor.execute(real_sql)
             print("execute result is %s" % result)
@@ -114,6 +115,4 @@ def storeToutiaoNewsInDataBase(data):
             con.commit()
         except Exception as e:
             print(e)
-        finally:
-            cursor.close()
 
